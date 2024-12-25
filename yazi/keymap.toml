@@ -1,0 +1,16 @@
+[[manager.prepend_keymap]]
+on   = "l"
+run  = "plugin smart-enter"
+desc = "Enter the child directory, or open the file"
+[[manager.prepend_keymap]]
+on   = "S"
+run  = 'shell "$SHELL" --block'
+desc = "按下 ! 在当前浏览的位置打开终端"
+[[input.prepend_keymap]]
+on   = "<Esc>"
+run  = "close"
+desc = "Cancel input"
+[[manager.prepend_keymap]]
+on   = "p"
+run  = "plugin smart-paste"
+desc = "Paste into the hovered directory or CWD"

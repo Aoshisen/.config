@@ -1,0 +1,10 @@
+# Clash Vergeasu
+
+mixed-port: 7898
+log-level: info
+allow-lan: false
+mode: rule
+external-controller: 127.0.0.1:9098
+secret: ''
+unified-delay: true
+tcp-concurrent: true

@@ -80,8 +80,8 @@ return {
         matrix = {
           head = {
             -- cursor = {""},
-            cursor = {""},
-            texthl={"SmoothCursorAqua"}
+            cursor = { "" },
+            texthl = { "SmoothCursorAqua" },
           },
           body = {
             texthl = {

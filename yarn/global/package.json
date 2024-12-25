@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "create-vite": "^6.1.0",
+    "create-vue": "^3.12.2"
+  }
+}

@@ -1,0 +1,24 @@
+# Profiles Config for Clash Verge
+
+current: ro4aNPlaOavy
+chain: null
+valid:
+- dns
+- sub-rules
+- unified-delay
+- tcp-concurrent
+items:
+- uid: ro4aNPlaOavy
+  type: remote
+  name: Remote File
+  file: ro4aNPlaOavy.yaml
+  desc: ''
+  url: https://dy726.dukadi.info/api/v1/client/subscribe?token=ab575881b5ff302ca816a543a01c4ae9
+  extra:
+    upload: 320000
+    download: 2476135
+    total: 214748364800
+    expire: 1780398302
+  updated: 1734957020
+  option:
+    update_interval: 1440

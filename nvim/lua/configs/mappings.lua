@@ -24,9 +24,9 @@ map("n", "L", "$", { desc = "custom L to jump to last word" })
 
 -- 设置快速跳转buffer
 for i = 1, 9, 1 do
-  map("n", string.format("<A-%s>", i), function()
+  map("n", string.format("<C-%s>", i), function()
     vim.api.nvim_set_current_buf(vim.t.bufs[i])
-  end, { desc = string.format("custom buffer <A-%s> to jump to buffer %s", i, i) })
+  end, { desc = string.format("custom buffer <C-%s> to jump to buffer %s", i, i) })
 end
 
 --设置hop 快速跳转的快捷键
