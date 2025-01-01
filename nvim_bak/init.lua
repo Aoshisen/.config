@@ -51,8 +51,3 @@ require "nvchad.autocmds"
 vim.schedule(function()
   require "configs.mappings"
 end)
-
---neovide
-if vim.g.neovide then
-  require("configs.neovide")
-end
