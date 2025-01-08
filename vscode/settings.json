@@ -1,0 +1,515 @@
+{
+	"editor.acceptSuggestionOnCommitCharacter": false,
+	"editor.fontLigatures": true,
+	"editor.lineHeight": 24,
+	"editor.lineNumbers": "on",
+	"editor.fontFamily": "Fira Code ,Hack Nerd Font",
+	"editor.quickSuggestions": {
+		"other": true,
+		"comments": true,
+		"strings": true
+	},
+	"editor.formatOnSave": false,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": "explicit"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"cSpell.userWords": [
+		"Codegen",
+		"composables",
+		"mockjs",
+		"Pinia",
+		"Sider",
+		"tauri",
+		"vitest",
+		"vuex"
+	],
+	"[vue]": {
+		"editor.defaultFormatter": "Vue.volar"
+	},
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"liveServer.settings.donotShowInfoMsg": true,
+	"editor.renderWhitespace": "none",
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"editor.cursorStyle": "line",
+	"editor.insertSpaces": false,
+	"editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+	"editor.wordWrap": "off",
+	"security.workspace.trust.untrustedFiles": "newWindow",
+	"diffEditor.ignoreTrimWhitespace": false,
+	"files.associations": {
+		"*.json": "jsonc"
+	},
+	"editor.guides.indentation": false,
+	"vim.argumentObjectOpeningDelimiters": [
+		"(",
+		"[",
+		"{"
+	],
+	"vim.argumentObjectClosingDelimiters": [
+		")",
+		"]",
+		"}"
+	],
+	"vim.easymotion": true,
+	"vim.leader": "<Space>",
+	"vim.foldfix": true,
+	"vim.useSystemClipboard": true,
+	"vim.easymotionJumpToAnywhereRegex": "\\b[A-Za-z0-9]|[A-Za-z0-9]\\b|_.|#.|=.|[a-z][A-Z]|{|\\(|\\[",
+	"vim.insertModeKeyBindingsNonRecursive": [
+		{
+			"before": [
+				"j",
+				"j"
+			],
+			"after": [
+				"<esc>"
+			]
+		},
+	],
+	"vim.visualModeKeyBindingsNonRecursive": [
+		// 在可视化模式下 y 之后光标停到当前的位置 y->ygv<esc>
+		{
+			"before": [
+				"y"
+			],
+			"after": [
+				"y",
+				"g",
+				"v",
+				"<esc>"
+			]
+		},
+		//快速移动到行首第一个非空字符
+		{
+			"before": [
+				"H"
+			],
+			"after": [
+				"^"
+			]
+		},
+		//快速移动到行尾 L-> g_
+		{
+			"before": [
+				"L"
+			],
+			"after": [
+				"g",
+				"_"
+			]
+		},
+		// 向下快速移动5行 J -> 5j
+		{
+			"before": [
+				"J"
+			],
+			"after": [
+				"5",
+				"j"
+			]
+		},
+		//向上快速移动5行 K -> 5k
+		{
+			"before": [
+				"K"
+			],
+			"after": [
+				"5",
+				"k"
+			]
+		},
+		// 重构手法： 提取函数 <leader>rf -> editor.action.refactor kind refactor.extract.function
+		{
+			"before": [
+				"<Leader>",
+				"r",
+				"f"
+			],
+			"commands": [
+				{
+					"command": "editor.action.refactor",
+					"args": {
+						"kind": "refactor.extract.function"
+					}
+				}
+			]
+		},
+		// 重构手法： 提取变量 <leader>rv -> abracadabra.extract (基于abracadabra插件)
+		{
+			"before": [
+				"<Leader>",
+				"r",
+				"v"
+			],
+			"commands": [
+				"abracadabra.extract"
+			]
+		}
+	],
+	"vim.normalModeKeyBindingsNonRecursive": [
+		{
+			"before": [
+				";"
+			],
+			"after": [
+				":"
+			]
+		},
+		{
+			"before": [
+				"H"
+			],
+			"after": [
+				"^"
+			]
+		},
+		{
+			"before": [
+				"L"
+			],
+			"after": [
+				"g",
+				"_"
+			]
+		},
+		{
+			"before": [
+				"J"
+			],
+			"after": [
+				"5",
+				"j"
+			]
+		},
+		{
+			"before": [
+				"K"
+			],
+			"after": [
+				"5",
+				"k"
+			]
+		},
+		{
+			"before": [
+				"<Leader>",
+				"l"
+			],
+			"after": [
+				"<leader>",
+				"<leader>",
+				"l"
+			]
+		},
+		{
+			"before": [
+				"<Leader>",
+				"h"
+			],
+			"after": [
+				"<leader>",
+				"<leader>",
+				"h"
+			]
+		},
+		{
+			"before": [
+				"<Leader>",
+				"k"
+			],
+			"after": [
+				"<leader>",
+				"<leader>",
+				"k"
+			]
+		},
+		{
+			"before": [
+				"<Leader>",
+				"j"
+			],
+			"after": [
+				"<leader>",
+				"<leader>",
+				"j"
+			]
+		},
+		{
+			"before": [
+				"<leader>",
+				"s"
+			],
+			"after": [
+				"V",
+				"$",
+				"%"
+			]
+		},
+		{
+			"before": [
+				"<Leader>",
+				"b",
+				"m"
+			],
+			"commands": [
+				"bookmarks.toggle"
+			]
+		},
+		{
+			"before": [
+				"<Leader>",
+				"b",
+				"l"
+			],
+			"commands": [
+				"bookmarks.list"
+			]
+		},
+		{
+			"before": [
+				"<Leader>",
+				"b",
+				"L"
+			],
+			"commands": [
+				"bookmarks.listFromAllFiles"
+			]
+		},
+		{
+			"before": [
+				"<Leader>",
+				"b",
+				"c"
+			],
+			"commands": [
+				"bookmarks.clear"
+			]
+		},
+		{
+			"before": [
+				"<Leader>",
+				"b",
+				"C"
+			],
+			"commands": [
+				"bookmarks.clearFromAllFiles"
+			]
+		},
+		{
+			"before": [
+				"<Leader>",
+				"c",
+				"f"
+			],
+			"commands": [
+				"hocusPocus.createFunction"
+			]
+		},
+		{
+			"before": [
+				"<Leader>",
+				"c",
+				"v"
+			],
+			"commands": [
+				"hocusPocus.createVariable"
+			]
+		},
+		{
+			"before": [
+				"<Leader>",
+				"r",
+				"v"
+			],
+			"commands": [
+				"abracadabra.extract"
+			]
+		},
+		{
+			"before": [
+				"<Leader>",
+				"r",
+				"n"
+			],
+			"commands": [
+				"abracadabra.renameSymbol"
+			]
+		},
+		{
+			"before": [
+				"<Leader>",
+				"f"
+			],
+			"commands": [
+				"editor.action.formatDocument"
+			]
+		},
+		{
+			"before": [
+				"<C-w>",
+				"l"
+			],
+			"commands": [
+				"workbench.action.splitEditorRight"
+			]
+		},
+		{
+			"before": [
+				"<C-w>",
+				"h"
+			],
+			"commands": [
+				"workbench.action.splitEditorLeft"
+			]
+		},
+		{
+			"before": [
+				"<C-w>",
+				"x"
+			],
+			"commands": [
+				"workbench.action.closeEditorsInGroup"
+			]
+		},
+		{
+			"before": [
+				";",
+				"w"
+			],
+			"commands": [
+				"workbench.action.files.save"
+			]
+		},
+		{
+			"before": [
+				";",
+				"q"
+			],
+			"commands": [
+				"workbench.action.closeActiveEditor"
+			]
+		},
+	],
+	"debug.disassemblyView.showSourceCode": false,
+	"terminal.integrated.env.osx": {
+		"FIG_NEW_SESSION": "1"
+	},
+	"editor.accessibilitySupport": "off",
+	"editor.smoothScrolling": true,
+	"[css]": {
+		"editor.defaultFormatter": "vscode.css-language-features"
+	},
+	"editor.stickyScroll.enabled": true,
+	"debug.onTaskErrors": "debugAnyway",
+	"files.exclude": {
+		"**/.git": true,
+		"**/.svn": true,
+		"**/.hg": true,
+		"**/CVS": true,
+		"**/.DS_Store": true,
+		"**/tmp": true,
+		"**/node_modules": false,
+		"**/bower_components": true,
+	},
+	"files.watcherExclude": {
+		"**/.git/objects/**": true,
+		"**/.git/subtree-cache/**": true,
+		"**/node_modules/**": true,
+		"**/tmp/**": true,
+		"**/bower_components/**": true,
+	},
+	"editor.guides.bracketPairs": "active",
+	"editor.suggest.snippetsPreventQuickSuggestions": false,
+	"editor.inlineSuggest.showToolbar": "always",
+	"editor.inlineSuggest.enabled": true,
+	"editor.snippetSuggestions": "top",
+	"workbench.tree.indent": 15,
+	"workbench.colorCustomizations": {
+		"tree.indentGuidesStroke": "#9a86fd",
+		"statusBar.background": "#005f5f",
+		"statusBar.noFolderBackground": "#005f5f",
+		"statusBar.debuggingBackground": "#005f5f",
+		"statusBar.foreground": "#ffffff",
+		"statusBar.debuggingForeground": "#ffffff"
+	},
+	"vim.showMarksInGutter": true,
+	"vim.handleKeys": {},
+	"cSpell.languageSettings": [
+	
+	],
+	"svelte.enable-ts-plugin": true,
+	"workbench.tree.renderIndentGuides": "none",
+	"workbench.editor.highlightModifiedTabs": true,
+	"workbench.editor.pinnedTabSizing": "compact",
+	"liveServer.settings.AdvanceCustomBrowserCmdLine": "",
+	"svelte.plugin.svelte.compilerWarnings": {
+		"a11y-click-events-have-key-events": "ignore",
+		"invalid-slotted-content": "ignore"
+	},
+	"terminal.integrated.fontFamily": "Hack Nerd Font",
+	"explorer.confirmDelete": false,
+	"git.confirmSync": false,
+	"git.autofetch": true,
+	"accessibility.signals.lineHasWarning": {
+		"sound": "auto"
+	},
+	"[scss]": {
+		"editor.defaultFormatter": "michelemelluso.code-beautifier"
+	},
+	"[less]": {
+		"editor.defaultFormatter": "michelemelluso.code-beautifier"
+	},
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"update.mode": "manual",
+	"editor.cursorSmoothCaretAnimation": "on",
+	"extensions.experimental.affinity": {
+		"vscodevim.vim": 1
+	},
+	"git.openRepositoryInParentFolders": "never",
+	"workbench.startupEditor": "none",
+	"workbench.colorTheme": "Default High Contrast",
+	"winopacity.opacity": 230,
+	"editor.fontVariations": false,
+	"multiCommand.commands": [
+		{
+			"command": "multiCommand.focusDownFiveTimes",
+			"sequence": [
+				"list.focusDown",
+				"list.focusDown",
+				"list.focusDown",
+				"list.focusDown",
+				"list.focusDown"
+			]
+		},
+		{
+			"command": "multiCommand.focusUpFiveTimes",
+			"sequence": [
+				"list.focusUp",
+				"list.focusUp",
+				"list.focusUp",
+				"list.focusUp",
+				"list.focusUp",
+			]
+		}
+	],
+	"workbench.activityBar.location": "top",
+	"window.newWindowProfile": "默认",
+	"settingsSync.ignoredSettings": [],
+	"[rust]": {
+		"editor.defaultFormatter": "rust-lang.rust-analyzer"
+	},
+	"chat.commandCenter.enabled": false
+}
