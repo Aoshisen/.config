@@ -1,0 +1,711 @@
+2025-01-09 17:24:33 INFO - [clash]: [36mINFO[0m[2025-01-09T17:24:33.716696+08:00] Start initial configuration in progress      
+
+2025-01-09 17:24:33 INFO - [clash]: [36mINFO[0m[2025-01-09T17:24:33.809304+08:00] Geodata Loader mode: memconservative         
+
+2025-01-09 17:24:39 INFO - [clash]: [36mINFO[0m[2025-01-09T17:24:39.31283+08:00] Start initial GeoIP rule CN => 🎯 全球直连, records: 10534 
+
+2025-01-09 17:24:39 INFO - [clash]: [36mINFO[0m[2025-01-09T17:24:39.333179+08:00] Initial configuration complete, total time: 5583ms 
+
+2025-01-09 17:24:39 INFO - [clash]: [36mINFO[0m[2025-01-09T17:24:39.337016+08:00] Sniffer is closed                            
+
+2025-01-09 17:24:39 INFO - [clash]: [36mINFO[0m[2025-01-09T17:24:39.337117+08:00] Use tcp concurrent                           
+
+2025-01-09 17:24:39 INFO - [clash]: [36mINFO[0m[2025-01-09T17:24:39.343107+08:00] RESTful API listening at: 127.0.0.1:9098     
+
+2025-01-09 17:24:39 INFO - [clash]: [36mINFO[0m[2025-01-09T17:24:39.351893+08:00] DNS server listening at: 127.0.0.1:35353     
+
+2025-01-09 17:24:39 INFO - [clash]: [36mINFO[0m[2025-01-09T17:24:39.354961+08:00] Mixed(http+socks) proxy listening at: 127.0.0.1:7898 
+
+2025-01-09 17:24:39 INFO - [clash]: [36mINFO[0m[2025-01-09T17:24:39.367302+08:00] Start initial compatible provider 🛑 全球拦截     
+
+2025-01-09 17:24:39 INFO - [clash]: [36mINFO[0m[2025-01-09T17:24:39.370507+08:00] Start initial compatible provider 🌏 国内媒体     
+
+2025-01-09 17:24:39 INFO - [clash]: [36mINFO[0m[2025-01-09T17:24:39.369317+08:00] Start initial compatible provider default    
+
+2025-01-09 17:24:39 INFO - [clash]: [36mINFO[0m[2025-01-09T17:24:39.37069+08:00] Start initial compatible provider 📲 电报信息     
+
+2025-01-09 17:24:39 INFO - [clash]: [36mINFO[0m[2025-01-09T17:24:39.367438+08:00] Start initial compatible provider 🐟 漏网之鱼     
+
+2025-01-09 17:24:39 INFO - [clash]: [36mINFO[0m[2025-01-09T17:24:39.367485+08:00] Start initial compatible provider 🍎 苹果服务     
+
+2025-01-09 17:24:39 INFO - [clash]: [36mINFO[0m[2025-01-09T17:24:39.367514+08:00] Start initial compatible provider ♻️ 自动选择    
+
+2025-01-09 17:24:39 INFO - [clash]: [36mINFO[0m[2025-01-09T17:24:39.367426+08:00] Start initial compatible provider 🔰 节点选择     
+
+2025-01-09 17:24:39 INFO - [clash]: [36mINFO[0m[2025-01-09T17:24:39.367434+08:00] Start initial compatible provider 🎯 全球直连     
+
+2025-01-09 17:24:39 INFO - [clash]: [36mINFO[0m[2025-01-09T17:24:39.367478+08:00] Start initial compatible provider 🌍 国外媒体     
+
+2025-01-09 17:24:39 INFO - [clash]: [36mINFO[0m[2025-01-09T17:24:39.36873+08:00] Start initial compatible provider Ⓜ️ 微软服务    
+
+2025-01-09 17:24:46 INFO - [clash]: [33mWARN[0m[2025-01-09T17:24:46.983239+08:00] because ♻️ 自动选择 failed multiple times, active health check 
+
+2025-01-09 17:24:56 INFO - [clash]: [33mWARN[0m[2025-01-09T17:24:54.633176+08:00] because ♻️ 自动选择 failed multiple times, active health check 
+
+2025-01-09 17:25:06 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:06.261871+08:00] [TCP] 127.0.0.1:60810 --> gateway.icloud.com.cn:443 match DomainSuffix(icloud.com.cn) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:06 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:06.389881+08:00] [TCP] 127.0.0.1:60811 --> identity.ess.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:06 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:06.614905+08:00] [TCP] 127.0.0.1:60829 --> gateway.icloud.com.cn:443 match DomainSuffix(icloud.com.cn) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:06 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:06.615296+08:00] [TCP] 127.0.0.1:60826 --> gateway.icloud.com.cn:443 match DomainSuffix(icloud.com.cn) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:06 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:06.615394+08:00] [TCP] 127.0.0.1:60824 --> gateway.icloud.com.cn:443 match DomainSuffix(icloud.com.cn) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:06 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:06.615394+08:00] [TCP] 127.0.0.1:60825 --> identity.ess.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:06 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:06.616294+08:00] [TCP] 127.0.0.1:60827 --> gateway.icloud.com.cn:443 match DomainSuffix(icloud.com.cn) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:06 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:06.734344+08:00] [TCP] 127.0.0.1:60823 --> meeting.tencent.com:443 match DomainSuffix(tencent.com) using 🎯 全球直连[DIRECT] 
+
+2025-01-09 17:25:06 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:06.784045+08:00] [TCP] 127.0.0.1:60830(Cursor Helper) --> svelte.gallerycdn.vsassets.io:443 match Match using 🐟 漏网之鱼[[Hy2]英国02] 
+
+2025-01-09 17:25:06 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:06.933375+08:00] [TCP] 127.0.0.1:60850 --> cdn.meeting.tencent.com:443 match DomainSuffix(tencent.com) using 🎯 全球直连[DIRECT] 
+
+2025-01-09 17:25:06 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:06.962142+08:00] [TCP] 127.0.0.1:60853 --> ssl.captcha.qq.com:443 match DomainSuffix(qq.com) using 🎯 全球直连[DIRECT] 
+
+2025-01-09 17:25:07 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:07.02393+08:00] [TCP] 127.0.0.1:60877 --> aegis.qq.com:443 match DomainSuffix(qq.com) using 🎯 全球直连[DIRECT] 
+
+2025-01-09 17:25:07 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:07.126369+08:00] [TCP] 127.0.0.1:60885 --> gateway.icloud.com.cn:443 match DomainSuffix(icloud.com.cn) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:07 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:07.126478+08:00] [TCP] 127.0.0.1:60884 --> gateway.icloud.com.cn:443 match DomainSuffix(icloud.com.cn) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:07 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:07.127044+08:00] [TCP] 127.0.0.1:60882 --> gateway.icloud.com.cn:443 match DomainSuffix(icloud.com.cn) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:07 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:07.127481+08:00] [TCP] 127.0.0.1:60883 --> gateway.icloud.com.cn:443 match DomainSuffix(icloud.com.cn) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:07 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:07.151997+08:00] [TCP] 127.0.0.1:60875 --> meeting.tencent.com:443 match DomainSuffix(tencent.com) using 🎯 全球直连[DIRECT] 
+
+2025-01-09 17:25:07 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:07.216006+08:00] [TCP] 127.0.0.1:60887 --> gateway.icloud.com.cn:443 match DomainSuffix(icloud.com.cn) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:07 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:07.518269+08:00] [TCP] 127.0.0.1:60886 --> stocks-data-service.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:07 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:07.609051+08:00] [TCP] 127.0.0.1:60905 --> aegis.qq.com:443 match DomainSuffix(qq.com) using 🎯 全球直连[DIRECT] 
+
+2025-01-09 17:25:07 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:07.643068+08:00] [TCP] 127.0.0.1:60904 --> gateway.icloud.com.cn:443 match DomainSuffix(icloud.com.cn) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:07 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:07.653281+08:00] [TCP] 127.0.0.1:60903 --> gateway.icloud.com.cn:443 match DomainSuffix(icloud.com.cn) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:07 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:07.653994+08:00] [TCP] 127.0.0.1:60902 --> gateway.icloud.com.cn:443 match DomainSuffix(icloud.com.cn) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:07 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:07.739723+08:00] [TCP] 127.0.0.1:60910 --> gateway.icloud.com.cn:443 match DomainSuffix(icloud.com.cn) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:07 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:07.753174+08:00] [TCP] 127.0.0.1:60911 --> gateway.icloud.com.cn:443 match DomainSuffix(icloud.com.cn) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:08 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:08.122436+08:00] [TCP] 127.0.0.1:60912 --> gateway.icloud.com.cn:443 match DomainSuffix(icloud.com.cn) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:08 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:08.122707+08:00] [TCP] 127.0.0.1:60913 --> gateway.icloud.com.cn:443 match DomainSuffix(icloud.com.cn) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:08 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:08.12386+08:00] [TCP] 127.0.0.1:60914 --> gateway.icloud.com.cn:443 match DomainSuffix(icloud.com.cn) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:08 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:08.254015+08:00] [TCP] 127.0.0.1:60919 --> otheve.beacon.qq.com:443 match DomainSuffix(beacon.qq.com) using 🛑 全球拦截[[Hy2]英国02] 
+
+2025-01-09 17:25:08 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:08.297489+08:00] [TCP] 127.0.0.1:60917 --> publiclog.zhiyan.tencent-cloud.net:443 match DomainSuffix(tencent-cloud.net) using 🎯 全球直连[DIRECT] 
+
+2025-01-09 17:25:08 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:08.29883+08:00] [TCP] 127.0.0.1:60916 --> gateway.icloud.com.cn:443 match DomainSuffix(icloud.com.cn) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:08 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:08.300647+08:00] [TCP] 127.0.0.1:60915 --> gateway.icloud.com.cn:443 match DomainSuffix(icloud.com.cn) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:08 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:08.374126+08:00] [TCP] 127.0.0.1:60918 --> oth.str.beacon.qq.com:443 match DomainSuffix(beacon.qq.com) using 🛑 全球拦截[[Hy2]英国02] 
+
+2025-01-09 17:25:08 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:08.513808+08:00] [TCP] 127.0.0.1:60922 --> ylz0.cos.meeting.tencent.com:443 match DomainSuffix(tencent.com) using 🎯 全球直连[DIRECT] 
+
+2025-01-09 17:25:08 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:08.514241+08:00] [TCP] 127.0.0.1:60923 --> ylz.cos.meeting.tencent.com:443 match DomainSuffix(tencent.com) using 🎯 全球直连[DIRECT] 
+
+2025-01-09 17:25:08 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:08.528203+08:00] [TCP] 127.0.0.1:60935 --> h.trace.qq.com:443 match DomainSuffix(qq.com) using 🎯 全球直连[DIRECT] 
+
+2025-01-09 17:25:09 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:09.13785+08:00] [TCP] 127.0.0.1:60978 --> gateway.icloud.com.cn:443 match DomainSuffix(icloud.com.cn) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:09 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:09.353089+08:00] [TCP] 127.0.0.1:60977 --> apptrailers.itunes.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:09 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:09.431344+08:00] [TCP] 127.0.0.1:60966 --> report.meeting.tencent.com:443 match DomainSuffix(tencent.com) using 🎯 全球直连[DIRECT] 
+
+2025-01-09 17:25:09 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:09.432073+08:00] [TCP] 127.0.0.1:60979 --> gateway.icloud.com.cn:443 match DomainSuffix(icloud.com.cn) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:09 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:09.538059+08:00] [TCP] 127.0.0.1:60980 --> gateway.icloud.com.cn:443 match DomainSuffix(icloud.com.cn) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:09 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:09.782622+08:00] [TCP] 127.0.0.1:60988 --> otheve.beacon.qq.com:443 match DomainSuffix(beacon.qq.com) using 🛑 全球拦截[[Hy2]英国02] 
+
+2025-01-09 17:25:10 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:10.017801+08:00] [TCP] 127.0.0.1:61000 --> apptrailers.itunes.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:10 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:10.402617+08:00] [TCP] 127.0.0.1:60995 --> ios.rqd.qq.com:443 match DomainSuffix(rqd.qq.com) using 🛑 全球拦截[[Hy2]英国02] 
+
+2025-01-09 17:25:10 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:10.403109+08:00] [TCP] 127.0.0.1:60996 --> gateway.icloud.com.cn:443 match DomainSuffix(icloud.com.cn) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:10 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:10.403587+08:00] [TCP] 127.0.0.1:60997 --> identity.ess.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:10 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:10.404216+08:00] [TCP] 127.0.0.1:60998 --> gateway.icloud.com.cn:443 match DomainSuffix(icloud.com.cn) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:10 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:10.409565+08:00] [TCP] 127.0.0.1:60999 --> gateway.icloud.com.cn:443 match DomainSuffix(icloud.com.cn) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:10 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:10.474637+08:00] [TCP] 127.0.0.1:61005 --> gateway.icloud.com.cn:443 match DomainSuffix(icloud.com.cn) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:10 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:10.47776+08:00] [TCP] 127.0.0.1:61002 --> gateway.icloud.com.cn:443 match DomainSuffix(icloud.com.cn) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:10 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:10.529451+08:00] [TCP] 127.0.0.1:61001 --> ocsp2.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:10 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:10.531329+08:00] [TCP] 127.0.0.1:61008 --> apptrailers.itunes.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:10 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:10.53141+08:00] [TCP] 127.0.0.1:61007 --> gateway.icloud.com.cn:443 match DomainSuffix(icloud.com.cn) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:10 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:10.770472+08:00] [TCP] 127.0.0.1:61021 --> otheve.beacon.qq.com:443 match DomainSuffix(beacon.qq.com) using 🛑 全球拦截[[Hy2]英国02] 
+
+2025-01-09 17:25:10 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:10.806372+08:00] [TCP] 127.0.0.1:61006 --> oth.str.beacon.qq.com:443 match DomainSuffix(beacon.qq.com) using 🛑 全球拦截[[Hy2]英国02] 
+
+2025-01-09 17:25:10 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:10.9517+08:00] [TCP] 127.0.0.1:61022 --> gateway.icloud.com.cn:443 match DomainSuffix(icloud.com.cn) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:10 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:10.951953+08:00] [TCP] 127.0.0.1:61023 --> gateway.icloud.com.cn:443 match DomainSuffix(icloud.com.cn) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:10 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:10.963777+08:00] [TCP] 127.0.0.1:61027 --> ocsp2.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:10 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:10.965073+08:00] [TCP] 127.0.0.1:61026 --> apptrailers.itunes.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:11 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:11.075249+08:00] [TCP] 127.0.0.1:61024 --> gateway.icloud.com.cn:443 match DomainSuffix(icloud.com.cn) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:11 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:11.078746+08:00] [TCP] 127.0.0.1:61025 --> gateway.icloud.com.cn:443 match DomainSuffix(icloud.com.cn) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:11 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:11.180395+08:00] [TCP] 127.0.0.1:61068 --> apptrailers.itunes.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:11 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:11.282136+08:00] [TCP] 127.0.0.1:61067 --> gspe35-ssl.ls.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:11 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:11.362996+08:00] [TCP] 127.0.0.1:61071 --> apptrailers.itunes.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:11 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:11.365755+08:00] [TCP] 127.0.0.1:61072 --> ocsp2.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:11 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:11.466609+08:00] [TCP] 127.0.0.1:61073 --> gateway.icloud.com.cn:443 match DomainSuffix(icloud.com.cn) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:11 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:11.514945+08:00] [TCP] 127.0.0.1:61070 --> metrics.icloud.com:443 match DomainSuffix(icloud.com) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:11 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:11.53825+08:00] [TCP] 127.0.0.1:61094 --> ios.rqd.qq.com:443 match DomainSuffix(rqd.qq.com) using 🛑 全球拦截[[Hy2]英国02] 
+
+2025-01-09 17:25:11 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:11.611805+08:00] [TCP] 127.0.0.1:61104 --> ocsp2.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:11 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:11.612166+08:00] [TCP] 127.0.0.1:61101 --> metrics.icloud.com:443 match DomainSuffix(icloud.com) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:11 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:11.612316+08:00] [TCP] 127.0.0.1:61105 --> apptrailers.itunes.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:11 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:11.613689+08:00] [TCP] 127.0.0.1:61106 --> apptrailers.itunes.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:11 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:11.628415+08:00] [TCP] 127.0.0.1:61109 --> otheve.beacon.qq.com:443 match DomainSuffix(beacon.qq.com) using 🛑 全球拦截[[Hy2]英国02] 
+
+2025-01-09 17:25:11 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:11.644072+08:00] [TCP] 127.0.0.1:61097 --> ios.rqd.qq.com:443 match DomainSuffix(rqd.qq.com) using 🛑 全球拦截[[Hy2]英国02] 
+
+2025-01-09 17:25:11 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:11.657669+08:00] [TCP] 127.0.0.1:61103 --> gspe35-ssl.ls.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:11 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:11.694379+08:00] [TCP] 127.0.0.1:61099 --> gateway.icloud.com.cn:443 match DomainSuffix(icloud.com.cn) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:11 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:11.698618+08:00] [TCP] 127.0.0.1:61100 --> gateway.icloud.com.cn:443 match DomainSuffix(icloud.com.cn) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:11 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:11.698686+08:00] [TCP] 127.0.0.1:61102 --> gateway.icloud.com.cn:443 match DomainSuffix(icloud.com.cn) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:11 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:11.729476+08:00] [TCP] 127.0.0.1:61098 --> oth.str.beacon.qq.com:443 match DomainSuffix(beacon.qq.com) using 🛑 全球拦截[[Hy2]英国02] 
+
+2025-01-09 17:25:12 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:12.046561+08:00] [TCP] 127.0.0.1:61119 --> metrics.icloud.com:443 match DomainSuffix(icloud.com) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:12 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:12.296395+08:00] [TCP] 127.0.0.1:61120 --> otheve.beacon.qq.com:443 match DomainSuffix(beacon.qq.com) using 🛑 全球拦截[[Hy2]英国02] 
+
+2025-01-09 17:25:12 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:12.412986+08:00] [TCP] 127.0.0.1:61124 --> gspe35-ssl.ls.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:12 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:12.416971+08:00] [TCP] 127.0.0.1:61121 --> ocsp2.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:12 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:12.419907+08:00] [TCP] 127.0.0.1:61122 --> apptrailers.itunes.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:12 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:12.421485+08:00] [TCP] 127.0.0.1:61125 --> apptrailers.itunes.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:12 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:12.51146+08:00] [TCP] 127.0.0.1:61126 --> apptrailers.itunes.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:12 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:12.531917+08:00] [TCP] 127.0.0.1:61123 --> gateway.icloud.com.cn:443 match DomainSuffix(icloud.com.cn) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:12 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:12.613183+08:00] [TCP] 127.0.0.1:61127 --> apptrailers.itunes.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:12 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:12.723809+08:00] [TCP] 127.0.0.1:61128 --> ios.rqd.qq.com:443 match DomainSuffix(rqd.qq.com) using 🛑 全球拦截[[Hy2]英国02] 
+
+2025-01-09 17:25:12 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:12.728955+08:00] [TCP] 127.0.0.1:61129 --> oth.str.beacon.qq.com:443 match DomainSuffix(beacon.qq.com) using 🛑 全球拦截[[Hy2]英国02] 
+
+2025-01-09 17:25:12 INFO - running timer task `ro4aNPlaOavy`
+2025-01-09 17:25:13 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:13.036489+08:00] [TCP] 127.0.0.1:61130 --> gateway.icloud.com.cn:443 match DomainSuffix(icloud.com.cn) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:13 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:13.082903+08:00] [TCP] 127.0.0.1:61132 --> gateway.icloud.com.cn:443 match DomainSuffix(icloud.com.cn) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:13 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:13.088202+08:00] [TCP] 127.0.0.1:61131 --> gateway.icloud.com.cn:443 match DomainSuffix(icloud.com.cn) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:13 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:13.769349+08:00] [TCP] 127.0.0.1:61138 --> gspe35-ssl.ls.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:13 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:13.7697+08:00] [TCP] 127.0.0.1:61139 --> otheve.beacon.qq.com:443 match DomainSuffix(beacon.qq.com) using 🛑 全球拦截[[Hy2]英国02] 
+
+2025-01-09 17:25:13 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:13.784892+08:00] [TCP] 127.0.0.1:61137 --> ocsp2.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:14 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:14.112461+08:00] [TCP] 127.0.0.1:61155 --> gateway.icloud.com.cn:443 match DomainSuffix(icloud.com.cn) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:14 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:14.145375+08:00] [TCP] 127.0.0.1:61142(com.apple.WebKit.Networking) --> cdn.headwayapp.co:443 match Match using 🐟 漏网之鱼[[Hy2]英国02] 
+
+2025-01-09 17:25:14 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:14.16991+08:00] [TCP] 127.0.0.1:61157 --> apptrailers.itunes.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:14 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:14.278424+08:00] [TCP] 127.0.0.1:61158 --> oth.str.beacon.qq.com:443 match DomainSuffix(beacon.qq.com) using 🛑 全球拦截[[Hy2]英国02] 
+
+2025-01-09 17:25:14 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:14.287026+08:00] [TCP] 127.0.0.1:61160 --> gateway.icloud.com.cn:443 match DomainSuffix(icloud.com.cn) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:14 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:14.462251+08:00] [TCP] 127.0.0.1:61159(Clash Verge) --> mirror.ghproxy.com:443 match Match using 🐟 漏网之鱼[[Hy2]英国02] 
+
+2025-01-09 17:25:14 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:14.540892+08:00] [TCP] 127.0.0.1:61177 --> clients4.google.com:443 match DomainKeyword(google) using 🔰 节点选择[[Hy2]英国02] 
+
+2025-01-09 17:25:14 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:14.985013+08:00] [TCP] 127.0.0.1:61196 --> otheve.beacon.qq.com:443 match DomainSuffix(beacon.qq.com) using 🛑 全球拦截[[Hy2]英国02] 
+
+2025-01-09 17:25:14 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:14.988524+08:00] [TCP] 127.0.0.1:61194 --> identity.ess.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:15 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:15.033643+08:00] [TCP] 127.0.0.1:61197 --> gspe35-ssl.ls.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:15 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:15.035416+08:00] [TCP] 127.0.0.1:61198 --> ocsp2.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:15 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:15.132361+08:00] [TCP] 127.0.0.1:61200 --> gateway.icloud.com.cn:443 match DomainSuffix(icloud.com.cn) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:15 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:15.13318+08:00] [TCP] 127.0.0.1:61199 --> gateway.icloud.com.cn:443 match DomainSuffix(icloud.com.cn) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:15 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:15.162197+08:00] [TCP] 127.0.0.1:61216 --> apptrailers.itunes.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:15 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:15.236851+08:00] [TCP] 127.0.0.1:61215 --> gateway.icloud.com.cn:443 match DomainSuffix(icloud.com.cn) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:15 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:15.236965+08:00] [TCP] 127.0.0.1:61214 --> gateway.icloud.com.cn:443 match DomainSuffix(icloud.com.cn) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:15 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:15.288698+08:00] [TCP] 127.0.0.1:61201(IINA) --> www.iina.io:443 match Match using 🐟 漏网之鱼[[Hy2]英国02] 
+
+2025-01-09 17:25:15 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:15.460344+08:00] [TCP] 127.0.0.1:61227 --> oth.str.beacon.qq.com:443 match DomainSuffix(beacon.qq.com) using 🛑 全球拦截[[Hy2]英国02] 
+
+2025-01-09 17:25:15 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:15.532221+08:00] [TCP] 127.0.0.1:61239 --> gspe35-ssl.ls.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:15 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:15.591757+08:00] [TCP] 127.0.0.1:61240 --> otheve.beacon.qq.com:443 match DomainSuffix(beacon.qq.com) using 🛑 全球拦截[[Hy2]英国02] 
+
+2025-01-09 17:25:15 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:15.600217+08:00] [TCP] 127.0.0.1:61241 --> apptrailers.itunes.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:15 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:15.627785+08:00] [TCP] 127.0.0.1:61228 --> github.com:443 match DomainSuffix(github.com) using 🔰 节点选择[[Hy2]英国02] 
+
+2025-01-09 17:25:15 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:15.700903+08:00] [TCP] 127.0.0.1:61242 --> gateway.icloud.com.cn:443 match DomainSuffix(icloud.com.cn) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:15 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:15.702929+08:00] [TCP] 127.0.0.1:61243 --> gateway.icloud.com.cn:443 match DomainSuffix(icloud.com.cn) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:15 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:15.717235+08:00] [TCP] 127.0.0.1:61244 --> gateway.icloud.com.cn:443 match DomainSuffix(icloud.com.cn) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:15 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:15.919823+08:00] [TCP] 127.0.0.1:61245 --> gateway.icloud.com.cn:443 match DomainSuffix(icloud.com.cn) using 🍎 苹果服务[[Hy2]英国02] 
+
+2025-01-09 17:25:16 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:16.257248+08:00] [TCP] 127.0.0.1:61246(Google Chrome Helper) --> b1.nel.goog:443 match GeoIP(CN) using 🎯 全球直连[DIRECT] 
+
+2025-01-09 17:25:16 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:16.265384+08:00] [TCP] 127.0.0.1:61247(Google Chrome Helper) --> b1.nel.goog:443 match GeoIP(CN) using 🎯 全球直连[DIRECT] 
+
+2025-01-09 17:25:16 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:16.323314+08:00] Start initial configuration in progress      
+
+2025-01-09 17:25:16 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:16.324422+08:00] Geodata Loader mode: memconservative         
+
+2025-01-09 17:25:16 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:16.344168+08:00] Start initial GeoIP rule CN => 🎯 全球直连, records: 10534 
+
+2025-01-09 17:25:16 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:16.344706+08:00] Initial configuration complete, total time: 21ms 
+
+2025-01-09 17:25:16 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:16.345506+08:00] Sniffer is closed                            
+
+2025-01-09 17:25:16 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:16.345529+08:00] Use tcp concurrent                           
+
+2025-01-09 17:25:16 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:16.34612+08:00] Start initial compatible provider Ⓜ️ 微软服务    
+
+2025-01-09 17:25:16 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:16.346192+08:00] Start initial compatible provider 🔰 节点选择     
+
+2025-01-09 17:25:16 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:16.346265+08:00] Start initial compatible provider 🎯 全球直连     
+
+2025-01-09 17:25:16 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:16.34699+08:00] Start initial compatible provider ♻️ 自动选择    
+
+2025-01-09 17:25:16 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:16.347012+08:00] Start initial compatible provider 🌏 国内媒体     
+
+2025-01-09 17:25:16 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:16.348355+08:00] Start initial compatible provider default    
+
+2025-01-09 17:25:16 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:16.348389+08:00] Start initial compatible provider 🛑 全球拦截     
+
+2025-01-09 17:25:16 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:16.348397+08:00] Start initial compatible provider 🐟 漏网之鱼     
+
+2025-01-09 17:25:16 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:16.347002+08:00] Start initial compatible provider 📲 电报信息     
+
+2025-01-09 17:25:16 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:16.347003+08:00] Start initial compatible provider 🌍 国外媒体     
+
+2025-01-09 17:25:16 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:16.347004+08:00] Start initial compatible provider 🍎 苹果服务     
+
+2025-01-09 17:25:20 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:20.717021+08:00] [TCP] 127.0.0.1:61386(Postman Helper) --> app.launchdarkly.com:443 match Match using 🐟 漏网之鱼[[Hy2]香港04] 
+
+2025-01-09 17:25:20 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:20.717093+08:00] [TCP] 127.0.0.1:61428(Postman Helper) --> postman.com:443 match Match using 🐟 漏网之鱼[[Hy2]香港04] 
+
+2025-01-09 17:25:20 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:20.717105+08:00] [TCP] 127.0.0.1:61319 --> gspe35-ssl.ls.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港04] 
+
+2025-01-09 17:25:20 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:20.717136+08:00] [TCP] 127.0.0.1:61263 --> otheve.beacon.qq.com:443 match DomainSuffix(beacon.qq.com) using 🛑 全球拦截[[Hy2]香港04] 
+
+2025-01-09 17:25:20 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:20.717155+08:00] [TCP] 127.0.0.1:61318 --> apptrailers.itunes.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港04] 
+
+2025-01-09 17:25:20 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:20.717236+08:00] [TCP] 127.0.0.1:61322 --> gateway.icloud.com.cn:443 match DomainSuffix(icloud.com.cn) using 🍎 苹果服务[[Hy2]香港04] 
+
+2025-01-09 17:25:20 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:20.717236+08:00] [TCP] 127.0.0.1:61321 --> gateway.icloud.com.cn:443 match DomainSuffix(icloud.com.cn) using 🍎 苹果服务[[Hy2]香港04] 
+
+2025-01-09 17:25:20 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:20.717237+08:00] [TCP] 127.0.0.1:61320 --> gateway.icloud.com.cn:443 match DomainSuffix(icloud.com.cn) using 🍎 苹果服务[[Hy2]香港04] 
+
+2025-01-09 17:25:20 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:20.717513+08:00] [TCP] 127.0.0.1:61385 --> gateway.icloud.com.cn:443 match DomainSuffix(icloud.com.cn) using 🍎 苹果服务[[Hy2]香港04] 
+
+2025-01-09 17:25:20 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:20.717616+08:00] [TCP] 127.0.0.1:61430 --> gateway.icloud.com.cn:443 match DomainSuffix(icloud.com.cn) using 🍎 苹果服务[[Hy2]香港04] 
+
+2025-01-09 17:25:20 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:20.717635+08:00] [TCP] 127.0.0.1:61398(Postman Helper) --> bifrost-https-v10.gw.postman.com:443 match Match using 🐟 漏网之鱼[[Hy2]香港04] 
+
+2025-01-09 17:25:20 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:20.717646+08:00] [TCP] 127.0.0.1:61429(Postman Helper) --> postman.com:443 match Match using 🐟 漏网之鱼[[Hy2]香港04] 
+
+2025-01-09 17:25:20 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:20.717674+08:00] [TCP] 127.0.0.1:61387(Postman Helper) --> app.launchdarkly.com:443 match Match using 🐟 漏网之鱼[[Hy2]香港04] 
+
+2025-01-09 17:25:20 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:20.717684+08:00] [TCP] 127.0.0.1:61415(Postman Helper) --> postman.com:443 match Match using 🐟 漏网之鱼[[Hy2]香港04] 
+
+2025-01-09 17:25:20 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:20.717713+08:00] [TCP] 127.0.0.1:61435(Postman Helper) --> events.launchdarkly.com:443 match Match using 🐟 漏网之鱼[[Hy2]香港04] 
+
+2025-01-09 17:25:20 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:20.717837+08:00] [TCP] 127.0.0.1:61447(Cursor Helper) --> postman.gallerycdn.vsassets.io:443 match Match using 🐟 漏网之鱼[[Hy2]香港04] 
+
+2025-01-09 17:25:20 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:20.774549+08:00] [TCP] 127.0.0.1:61470 --> objects.githubusercontent.com:443 match DomainSuffix(githubusercontent.com) using 🔰 节点选择[[Hy2]香港04] 
+
+2025-01-09 17:25:21 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:21.514757+08:00] [TCP] 127.0.0.1:61481 --> pds-init.ess.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港04] 
+
+2025-01-09 17:25:21 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:21.637744+08:00] [TCP] 127.0.0.1:61492 --> pds.ess.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港04] 
+
+2025-01-09 17:25:22 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:22.908116+08:00] [TCP] 127.0.0.1:61533(AMPLibraryAgent) --> 111.180.138.102:443 match GeoIP(CN) using 🎯 全球直连[DIRECT] 
+
+2025-01-09 17:25:23 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:23.629108+08:00] [TCP] 127.0.0.1:61538 --> ocsp2.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港04] 
+
+2025-01-09 17:25:24 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:24.387102+08:00] [TCP] 127.0.0.1:61557 --> ocsp2.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港04] 
+
+2025-01-09 17:25:25 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:25.298275+08:00] [TCP] 127.0.0.1:61559 --> otheve.beacon.qq.com:443 match DomainSuffix(beacon.qq.com) using 🛑 全球拦截[[Hy2]香港04] 
+
+2025-01-09 17:25:25 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:25.743813+08:00] [TCP] 127.0.0.1:61561 --> dispatcher.is.autonavi.com:443 match IPCIDR(106.11.0.0/16) using 🌏 国内媒体[DIRECT] 
+
+2025-01-09 17:25:25 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:25.863461+08:00] [TCP] 127.0.0.1:61566 --> otheve.beacon.qq.com:443 match DomainSuffix(beacon.qq.com) using 🛑 全球拦截[[Hy2]香港04] 
+
+2025-01-09 17:25:26 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:26.762729+08:00] [TCP] 127.0.0.1:61580 --> pancake.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:25:26 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:26.864949+08:00] [TCP] 127.0.0.1:61585 --> apptrailers.itunes.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:25:27 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:27.222811+08:00] [TCP] 127.0.0.1:61583(Postman Helper) --> dl.pstmn.io:443 match Match using 🐟 漏网之鱼[[Hy2]香港01] 
+
+2025-01-09 17:25:27 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:27.226375+08:00] [TCP] 127.0.0.1:61584(Postman Helper) --> dl.pstmn.io:443 match Match using 🐟 漏网之鱼[[Hy2]香港01] 
+
+2025-01-09 17:25:27 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:27.226563+08:00] [TCP] 127.0.0.1:61607 --> gateway.icloud.com.cn:443 match DomainSuffix(icloud.com.cn) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:25:27 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:27.545126+08:00] [TCP] 127.0.0.1:61608 --> metrics.icloud.com:443 match DomainSuffix(icloud.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:25:27 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:27.64307+08:00] [TCP] 127.0.0.1:61621 --> gateway.icloud.com.cn:443 match DomainSuffix(icloud.com.cn) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:25:27 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:27.955708+08:00] [TCP] 127.0.0.1:61624 --> gateway.icloud.com.cn:443 match DomainSuffix(icloud.com.cn) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:25:28 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:28.989368+08:00] [TCP] 127.0.0.1:61625 --> ocsp2.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:25:29 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:29.408161+08:00] [TCP] 127.0.0.1:61636(Postman) --> dl.pstmn.io:443 match Match using 🐟 漏网之鱼[[Hy2]香港01] 
+
+2025-01-09 17:25:30 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:30.690345+08:00] [TCP] 127.0.0.1:61660 --> otheve.beacon.qq.com:443 match DomainSuffix(beacon.qq.com) using 🛑 全球拦截[[Hy2]香港01] 
+
+2025-01-09 17:25:30 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:30.69254+08:00] [TCP] 127.0.0.1:61637 --> fpinit.itunes.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:25:30 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:30.788596+08:00] [TCP] 127.0.0.1:61659 --> gateway.icloud.com.cn:443 match DomainSuffix(icloud.com.cn) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:25:31 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:31.076119+08:00] [TCP] 127.0.0.1:61661 --> p213-fmipmobile.icloud.com.cn:443 match DomainSuffix(icloud.com.cn) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:25:32 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:32.304582+08:00] [TCP] 127.0.0.1:61668 --> xp.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:25:32 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:32.32324+08:00] [TCP] 127.0.0.1:61671 --> gateway.icloud.com.cn:443 match DomainSuffix(icloud.com.cn) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:25:32 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:32.549949+08:00] [TCP] 127.0.0.1:61673 --> xp.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:25:33 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:33.250792+08:00] [TCP] 127.0.0.1:61674 --> xp.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:25:34 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:34.736876+08:00] [TCP] 127.0.0.1:61675 --> xp.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:25:35 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:35.087062+08:00] [TCP] 127.0.0.1:61676 --> gateway.icloud.com.cn:443 match DomainSuffix(icloud.com.cn) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:25:36 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:36.561613+08:00] [TCP] 127.0.0.1:61677 --> s.mzstatic.com:443 match DomainSuffix(mzstatic.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:25:36 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:36.716323+08:00] [TCP] 127.0.0.1:61682 --> apptrailers.itunes.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:25:37 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:37.594813+08:00] [TCP] 127.0.0.1:61684 --> apptrailers.itunes.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:25:37 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:37.933761+08:00] [TCP] 127.0.0.1:61683 --> dispatcher.is.autonavi.com:443 match IPCIDR(106.11.0.0/16) using 🌏 国内媒体[DIRECT] 
+
+2025-01-09 17:25:37 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:37.944571+08:00] [TCP] 127.0.0.1:61685(Google Chrome Helper) --> www.better365.com:443 match GeoIP(CN) using 🎯 全球直连[DIRECT] 
+
+2025-01-09 17:25:38 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:38.123904+08:00] [TCP] 127.0.0.1:61688 --> gspe1-ssl.ls.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:25:38 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:38.223967+08:00] [TCP] 127.0.0.1:61689 --> stocks-analytics-events.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:25:38 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:38.224+08:00] [TCP] 127.0.0.1:61690 --> stocks-analytics-events.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:25:38 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:38.238448+08:00] [TCP] 127.0.0.1:61694 --> weather-analytics-events.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:25:38 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:38.306336+08:00] [TCP] 127.0.0.1:61739 --> xp.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:25:38 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:38.33311+08:00] [TCP] 127.0.0.1:61740 --> xp.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:25:38 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:38.379916+08:00] [TCP] 127.0.0.1:61712 --> books-analytics-events.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:25:39 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:39.110858+08:00] [TCP] 127.0.0.1:61751 --> apptrailers.itunes.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:25:39 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:39.480438+08:00] [TCP] 127.0.0.1:61763 --> apptrailers.itunes.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:25:39 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:39.701845+08:00] [TCP] 127.0.0.1:61764 --> xp.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:25:39 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:39.787209+08:00] [TCP] 127.0.0.1:61752(Postman Helper) --> clientstream.launchdarkly.com:443 match Match using 🐟 漏网之鱼[[Hy2]香港01] 
+
+2025-01-09 17:25:39 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:39.883834+08:00] [TCP] 127.0.0.1:61767 --> metrics.icloud.com:443 match DomainSuffix(icloud.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:25:39 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:39.899668+08:00] [TCP] 127.0.0.1:61765 --> weatherkit.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:25:39 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:39.986051+08:00] [TCP] 127.0.0.1:61781 --> amp-api-edge.apps.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:25:40 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:40.050223+08:00] [TCP] 127.0.0.1:61766 --> gateway.icloud.com:443 match Domain(gateway.icloud.com) using 🔰 节点选择[[Hy2]香港01] 
+
+2025-01-09 17:25:40 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:40.100063+08:00] [TCP] 127.0.0.1:61780 --> api.smoot.apple.com:443 match DomainSuffix(smoot.apple.com) using 🔰 节点选择[[Hy2]香港01] 
+
+2025-01-09 17:25:40 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:40.166649+08:00] [TCP] 127.0.0.1:61782 --> configuration.ls.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:25:40 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:40.168754+08:00] [TCP] 127.0.0.1:61801 --> gspe35-ssl.ls.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:25:40 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:40.918664+08:00] [TCP] 127.0.0.1:61813 --> apptrailers.itunes.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:25:41 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:41.330627+08:00] [TCP] 127.0.0.1:61815 --> gspe21-ssl.ls.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:25:41 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:41.332048+08:00] [TCP] 127.0.0.1:61816 --> gspe21-ssl.ls.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:25:41 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:41.357351+08:00] [TCP] 127.0.0.1:61817 --> gspe21-ssl.ls.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:25:41 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:41.543812+08:00] [TCP] 127.0.0.1:61828 --> xp.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:25:41 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:41.707208+08:00] [TCP] 127.0.0.1:61814 --> api-glb-aapne1c.smoot.apple.com:443 match DomainSuffix(smoot.apple.com) using 🔰 节点选择[[Hy2]香港01] 
+
+2025-01-09 17:25:42 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:42.345612+08:00] [TCP] 127.0.0.1:61839 --> ios.rqd.qq.com:443 match DomainSuffix(rqd.qq.com) using 🛑 全球拦截[[Hy2]香港01] 
+
+2025-01-09 17:25:42 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:42.416546+08:00] [TCP] 127.0.0.1:61840 --> pancake.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:25:43 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:43.311245+08:00] [TCP] 127.0.0.1:61845 --> gspe19-ssl.ls.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:25:43 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:43.437495+08:00] [TCP] 127.0.0.1:61860 --> gspe19-ssl.ls.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:25:44 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:44.05137+08:00] [TCP] 127.0.0.1:61861 --> gspe19-ssl.ls.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:25:47 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:47.345748+08:00] [TCP] 127.0.0.1:61866 --> p213-fmfmobile.icloud.com.cn:443 match DomainSuffix(icloud.com.cn) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:25:47 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:47.678739+08:00] [TCP] 127.0.0.1:61870 --> pancake.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:25:49 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:49.528708+08:00] [TCP] 127.0.0.1:61883 --> wanproxy.127.net:80 match DomainSuffix(wanproxy.127.net) using 🛑 全球拦截[[Hy2]香港01] 
+
+2025-01-09 17:25:49 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:49.618628+08:00] [TCP] 127.0.0.1:61884 --> api-glb-aapne1c.smoot.apple.com:443 match DomainSuffix(smoot.apple.com) using 🔰 节点选择[[Hy2]香港01] 
+
+2025-01-09 17:25:50 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:50.3451+08:00] [TCP] 127.0.0.1:61889 --> pancake.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:25:51 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:51.674471+08:00] [TCP] 127.0.0.1:61892 --> xp.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:25:52 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:52.422592+08:00] [TCP] 127.0.0.1:61893 --> weatherkit.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:25:53 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:53.142212+08:00] [TCP] 127.0.0.1:61897 --> lcdn-locator.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:25:53 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:53.232709+08:00] [TCP] 127.0.0.1:61909(Cursor Helper) --> api2.cursor.sh:443 match Match using 🐟 漏网之鱼[[Hy2]香港01] 
+
+2025-01-09 17:25:54 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:54.259892+08:00] [TCP] 127.0.0.1:61920 --> ocsp2.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:25:54 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:54.330495+08:00] [TCP] 127.0.0.1:61921 --> ocsp.digicert.com:80 match Domain(ocsp.digicert.com) using 🔰 节点选择[[Hy2]香港01] 
+
+2025-01-09 17:25:54 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:54.562525+08:00] [TCP] 127.0.0.1:61935 --> pancake.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:25:55 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:55.947024+08:00] [TCP] 127.0.0.1:61955 --> pancake.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:25:57 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:57.565596+08:00] [TCP] 127.0.0.1:61958(Google Chrome Helper) --> git.papamk.com:443 match Match using 🐟 漏网之鱼[[Hy2]香港01] 
+
+2025-01-09 17:25:57 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:57.575224+08:00] [TCP] 127.0.0.1:61957(Google Chrome Helper) --> git.papamk.com:443 match Match using 🐟 漏网之鱼[[Hy2]香港01] 
+
+2025-01-09 17:25:58 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:58.014113+08:00] [TCP] 127.0.0.1:61972 --> music.163.com:80 match DomainSuffix(163.com) using 🎯 全球直连[DIRECT] 
+
+2025-01-09 17:25:58 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:58.424288+08:00] [TCP] 127.0.0.1:61976(Google Chrome Helper) --> git.papamk.com:443 match Match using 🐟 漏网之鱼[[Hy2]香港01] 
+
+2025-01-09 17:25:58 INFO - [clash]: [36mINFO[0m[2025-01-09T17:25:58.940593+08:00] [TCP] 127.0.0.1:61977 --> fpinit.itunes.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:26:00 INFO - [clash]: [36mINFO[0m[2025-01-09T17:26:00.100522+08:00] [TCP] 127.0.0.1:61991 --> p3.music.126.net:443 match DomainSuffix(126.net) using 🎯 全球直连[DIRECT] 
+
+2025-01-09 17:26:00 INFO - [clash]: [36mINFO[0m[2025-01-09T17:26:00.182082+08:00] [TCP] 127.0.0.1:61999 --> p1.music.126.net:443 match DomainSuffix(126.net) using 🎯 全球直连[DIRECT] 
+
+2025-01-09 17:26:00 INFO - [clash]: [36mINFO[0m[2025-01-09T17:26:00.557697+08:00] [TCP] 127.0.0.1:62014 --> p4.music.126.net:80 match DomainSuffix(126.net) using 🎯 全球直连[DIRECT] 
+
+2025-01-09 17:26:00 INFO - [clash]: [36mINFO[0m[2025-01-09T17:26:00.558057+08:00] [TCP] 127.0.0.1:62013 --> p4.music.126.net:443 match DomainSuffix(126.net) using 🎯 全球直连[DIRECT] 
+
+2025-01-09 17:26:03 INFO - [clash]: [36mINFO[0m[2025-01-09T17:26:03.048244+08:00] [TCP] 127.0.0.1:62029 --> p3.music.126.net:80 match DomainSuffix(126.net) using 🎯 全球直连[DIRECT] 
+
+2025-01-09 17:26:03 INFO - [clash]: [36mINFO[0m[2025-01-09T17:26:03.457522+08:00] [TCP] 127.0.0.1:62037 --> apptrailers.itunes.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:26:04 INFO - [clash]: [36mINFO[0m[2025-01-09T17:26:04.253583+08:00] [TCP] 127.0.0.1:62050 --> apptrailers.itunes.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:26:04 INFO - [clash]: [36mINFO[0m[2025-01-09T17:26:04.516913+08:00] [TCP] 127.0.0.1:62051 --> pancake.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:26:04 INFO - [clash]: [36mINFO[0m[2025-01-09T17:26:04.82886+08:00] [TCP] 127.0.0.1:62052 --> apptrailers.itunes.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:26:05 INFO - [clash]: [36mINFO[0m[2025-01-09T17:26:05.364836+08:00] [TCP] 127.0.0.1:62053 --> pd.itunes.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:26:05 INFO - [clash]: [36mINFO[0m[2025-01-09T17:26:05.670319+08:00] [TCP] 127.0.0.1:62056 --> apptrailers.itunes.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:26:06 INFO - [clash]: [36mINFO[0m[2025-01-09T17:26:06.625163+08:00] [TCP] 127.0.0.1:62057 --> p28-buy.itunes.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:26:06 INFO - [clash]: [36mINFO[0m[2025-01-09T17:26:06.996727+08:00] [TCP] 127.0.0.1:62070(Thunder) --> upgrade.xl9.xunlei.com:80 match Process(Thunder) using 🎯 全球直连[DIRECT] 
+
+2025-01-09 17:26:07 INFO - [clash]: [36mINFO[0m[2025-01-09T17:26:07.676191+08:00] [TCP] 127.0.0.1:62073(Thunder) --> images.client.vip.xunlei.com:80 match Process(Thunder) using 🎯 全球直连[DIRECT] 
+
+2025-01-09 17:26:07 INFO - [clash]: [36mINFO[0m[2025-01-09T17:26:07.871086+08:00] [TCP] 127.0.0.1:62086 --> weatherkit.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:26:08 INFO - [clash]: [36mINFO[0m[2025-01-09T17:26:08.100756+08:00] [TCP] 127.0.0.1:62089 --> pd.itunes.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:26:08 INFO - [clash]: [36mINFO[0m[2025-01-09T17:26:08.400393+08:00] [TCP] 127.0.0.1:62090(Google Chrome Helper) --> git.papamk.com:443 match Match using 🐟 漏网之鱼[[Hy2]香港01] 
+
+2025-01-09 17:26:08 INFO - [clash]: [36mINFO[0m[2025-01-09T17:26:08.401052+08:00] [TCP] 127.0.0.1:62091(Google Chrome Helper) --> git.papamk.com:443 match Match using 🐟 漏网之鱼[[Hy2]香港01] 
+
+2025-01-09 17:26:08 INFO - [clash]: [36mINFO[0m[2025-01-09T17:26:08.745685+08:00] [TCP] 127.0.0.1:62103 --> apptrailers.itunes.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:26:08 INFO - [clash]: [36mINFO[0m[2025-01-09T17:26:08.746364+08:00] [TCP] 127.0.0.1:62102 --> apptrailers.itunes.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:26:09 INFO - [clash]: [36mINFO[0m[2025-01-09T17:26:09.3444+08:00] [TCP] 127.0.0.1:62104(Code Helper) --> main.vscode-cdn.net:443 match Match using 🐟 漏网之鱼[[Hy2]香港01] 
+
+2025-01-09 17:26:09 INFO - [clash]: [36mINFO[0m[2025-01-09T17:26:09.380803+08:00] [TCP] 127.0.0.1:62125(Google Chrome Helper) --> git.papamk.com:443 match Match using 🐟 漏网之鱼[[Hy2]香港01] 
+
+2025-01-09 17:26:09 INFO - [clash]: [36mINFO[0m[2025-01-09T17:26:09.776563+08:00] [TCP] 127.0.0.1:62127(Thunder) --> team.speed.cdn.vip.xunlei.com:80 match Process(Thunder) using 🎯 全球直连[DIRECT] 
+
+2025-01-09 17:26:09 INFO - [clash]: [36mINFO[0m[2025-01-09T17:26:09.786876+08:00] [TCP] 127.0.0.1:62130(Thunder) --> team.speed.cdn.vip.xunlei.com:80 match Process(Thunder) using 🎯 全球直连[DIRECT] 
+
+2025-01-09 17:26:09 INFO - [clash]: [36mINFO[0m[2025-01-09T17:26:09.806457+08:00] [TCP] 127.0.0.1:62134(Thunder) --> team.speed.cdn.vip.xunlei.com:80 match Process(Thunder) using 🎯 全球直连[DIRECT] 
+
+2025-01-09 17:26:09 INFO - [clash]: [36mINFO[0m[2025-01-09T17:26:09.83343+08:00] [TCP] 127.0.0.1:62133 --> cma.itunes.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:26:09 INFO - [clash]: [36mINFO[0m[2025-01-09T17:26:09.930222+08:00] [TCP] 127.0.0.1:62137 --> pd.itunes.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:26:11 INFO - [clash]: [36mINFO[0m[2025-01-09T17:26:11.002177+08:00] [TCP] 127.0.0.1:62139 --> ocsp2.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:26:11 INFO - [clash]: [36mINFO[0m[2025-01-09T17:26:11.003735+08:00] [TCP] 127.0.0.1:62140 --> ocsp.digicert.com:80 match Domain(ocsp.digicert.com) using 🔰 节点选择[[Hy2]香港01] 
+
+2025-01-09 17:26:11 INFO - [clash]: [36mINFO[0m[2025-01-09T17:26:11.049193+08:00] [TCP] 127.0.0.1:62141 --> pd.itunes.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:26:11 INFO - [clash]: [36mINFO[0m[2025-01-09T17:26:11.607846+08:00] [TCP] 127.0.0.1:62153 --> gateway.icloud.com.cn:443 match DomainSuffix(icloud.com.cn) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:26:16 INFO - [clash]: [36mINFO[0m[2025-01-09T17:26:16.369006+08:00] [TCP] 127.0.0.1:62156 --> google.com:443 match DomainKeyword(google) using 🔰 节点选择[[Hy2]香港01] 
+
+2025-01-09 17:26:16 INFO - [clash]: [36mINFO[0m[2025-01-09T17:26:16.52175+08:00] [TCP] 127.0.0.1:62157(Google Chrome Helper) --> beacons.gcp.gvt2.com:443 match GeoIP(CN) using 🎯 全球直连[DIRECT] 
+
+2025-01-09 17:26:20 INFO - [clash]: [36mINFO[0m[2025-01-09T17:26:20.88432+08:00] [TCP] 127.0.0.1:62186 --> aegis.qq.com:443 match DomainSuffix(qq.com) using 🎯 全球直连[DIRECT] 
+
+2025-01-09 17:26:26 INFO - [clash]: [36mINFO[0m[2025-01-09T17:26:26.665693+08:00] [TCP] 127.0.0.1:62192(Thunder) --> analysis-acc-ssl.xunlei.com:443 match Process(Thunder) using 🎯 全球直连[DIRECT] 
+
+2025-01-09 17:26:29 INFO - [clash]: [36mINFO[0m[2025-01-09T17:26:29.167852+08:00] [TCP] 127.0.0.1:62199 --> apptrailers.itunes.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:26:32 INFO - [clash]: [36mINFO[0m[2025-01-09T17:26:32.992601+08:00] [TCP] 127.0.0.1:62214(Raycast) --> backend.raycast.com:443 match Match using 🐟 漏网之鱼[[Hy2]香港01] 
+
+2025-01-09 17:26:32 INFO - [clash]: [36mINFO[0m[2025-01-09T17:26:32.995253+08:00] [TCP] 127.0.0.1:62229(Raycast) --> backend.raycast.com:443 match Match using 🐟 漏网之鱼[[Hy2]香港01] 
+
+2025-01-09 17:26:33 INFO - [clash]: [36mINFO[0m[2025-01-09T17:26:33.795025+08:00] [TCP] 127.0.0.1:62232 --> init-p01md.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:26:36 INFO - [clash]: [36mINFO[0m[2025-01-09T17:26:36.589762+08:00] [TCP] 127.0.0.1:62236 --> apps.mzstatic.com:443 match DomainSuffix(mzstatic.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:26:36 INFO - [clash]: [36mINFO[0m[2025-01-09T17:26:36.651388+08:00] [TCP] 127.0.0.1:62239 --> gateway.icloud.com:443 match Domain(gateway.icloud.com) using 🔰 节点选择[[Hy2]香港01] 
+
+2025-01-09 17:26:38 INFO - [clash]: [36mINFO[0m[2025-01-09T17:26:38.232257+08:00] [TCP] 127.0.0.1:62250 --> pd.itunes.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:26:38 INFO - [clash]: [36mINFO[0m[2025-01-09T17:26:38.254406+08:00] [TCP] 127.0.0.1:62251 --> xp.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:26:40 INFO - [clash]: [36mINFO[0m[2025-01-09T17:26:40.128892+08:00] [TCP] 127.0.0.1:62262 --> pd.itunes.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:26:41 INFO - [clash]: [36mINFO[0m[2025-01-09T17:26:41.998535+08:00] [TCP] 127.0.0.1:62264 --> xp.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:26:47 INFO - [clash]: [36mINFO[0m[2025-01-09T17:26:47.806818+08:00] [TCP] 127.0.0.1:62265 --> metrics.icloud.com:443 match DomainSuffix(icloud.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:26:47 INFO - [clash]: [36mINFO[0m[2025-01-09T17:26:47.848641+08:00] [TCP] 127.0.0.1:62266 --> metrics.icloud.com:443 match DomainSuffix(icloud.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:26:51 INFO - [clash]: [36mINFO[0m[2025-01-09T17:26:51.461581+08:00] [TCP] 127.0.0.1:62284(Cursor Helper) --> api2.cursor.sh:443 match Match using 🐟 漏网之鱼[[Hy2]香港01] 
+
+2025-01-09 17:26:55 INFO - [clash]: [36mINFO[0m[2025-01-09T17:26:55.244256+08:00] [TCP] 127.0.0.1:62297 --> stocks-data-service.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:26:55 INFO - [clash]: [36mINFO[0m[2025-01-09T17:26:55.932686+08:00] [TCP] 127.0.0.1:62310 --> ocsp2.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:26:56 INFO - [clash]: [36mINFO[0m[2025-01-09T17:26:56.68328+08:00] [TCP] 127.0.0.1:62322 --> ocsp2.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:27:00 INFO - [clash]: [36mINFO[0m[2025-01-09T17:27:00.573593+08:00] [TCP] 127.0.0.1:62323 --> books-analytics-events.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:27:01 INFO - [clash]: [36mINFO[0m[2025-01-09T17:27:01.159942+08:00] [TCP] 127.0.0.1:62336 --> p213-fmfmobile.icloud.com.cn:443 match DomainSuffix(icloud.com.cn) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:27:08 INFO - [clash]: [36mINFO[0m[2025-01-09T17:27:08.035285+08:00] [TCP] 127.0.0.1:62338 --> aegis.qq.com:443 match DomainSuffix(qq.com) using 🎯 全球直连[DIRECT] 
+
+2025-01-09 17:27:09 INFO - [clash]: [36mINFO[0m[2025-01-09T17:27:09.950584+08:00] [TCP] 127.0.0.1:62356 --> gateway.icloud.com.cn:443 match DomainSuffix(icloud.com.cn) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:27:16 INFO - [clash]: [36mINFO[0m[2025-01-09T17:27:16.081998+08:00] [TCP] 127.0.0.1:62358 --> profile.gc.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:27:20 INFO - [clash]: [36mINFO[0m[2025-01-09T17:27:20.20755+08:00] [TCP] 127.0.0.1:62373 --> profile.gc.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:27:20 INFO - [clash]: [36mINFO[0m[2025-01-09T17:27:20.329913+08:00] [TCP] 127.0.0.1:62374 --> bag.itunes.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:27:22 INFO - [clash]: [36mINFO[0m[2025-01-09T17:27:22.755059+08:00] [TCP] 127.0.0.1:62377 --> stats.gc.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:27:22 INFO - [clash]: [36mINFO[0m[2025-01-09T17:27:22.946524+08:00] [TCP] 127.0.0.1:62378 --> turn.gc.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:27:23 INFO - [clash]: [36mINFO[0m[2025-01-09T17:27:23.164921+08:00] [TCP] 127.0.0.1:62398 --> p213-fmipmobile.icloud.com.cn:443 match DomainSuffix(icloud.com.cn) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:27:23 INFO - [clash]: [36mINFO[0m[2025-01-09T17:27:23.617494+08:00] [TCP] 127.0.0.1:62395 --> vscode-sync.trafficmanager.net:443 match DomainSuffix(trafficmanager.net) using Ⓜ️ 微软服务[DIRECT] 
+
+2025-01-09 17:27:25 INFO - [clash]: [36mINFO[0m[2025-01-09T17:27:25.591624+08:00] [TCP] 127.0.0.1:62408 --> apptrailers.itunes.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:27:26 INFO - [clash]: [36mINFO[0m[2025-01-09T17:27:26.988628+08:00] [TCP] 127.0.0.1:62436 --> apptrailers.itunes.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:27:27 INFO - [clash]: [36mINFO[0m[2025-01-09T17:27:27.480321+08:00] [TCP] 127.0.0.1:62424 --> mobile.events.data.microsoft.com:443 match DomainKeyword(microsoft) using Ⓜ️ 微软服务[DIRECT] 
+
+2025-01-09 17:27:27 INFO - [clash]: [36mINFO[0m[2025-01-09T17:27:27.922251+08:00] [TCP] 127.0.0.1:62439 --> aegis.qq.com:443 match DomainSuffix(qq.com) using 🎯 全球直连[DIRECT] 
+
+2025-01-09 17:27:29 INFO - [clash]: [36mINFO[0m[2025-01-09T17:27:29.213467+08:00] [TCP] 127.0.0.1:62445 --> apptrailers.itunes.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:27:43 INFO - [clash]: [36mINFO[0m[2025-01-09T17:27:43.535527+08:00] [TCP] 127.0.0.1:62461 --> xp.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:27:45 INFO - [clash]: [36mINFO[0m[2025-01-09T17:27:45.113368+08:00] [TCP] 127.0.0.1:62464 --> apptrailers.itunes.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:27:46 INFO - [clash]: [36mINFO[0m[2025-01-09T17:27:46.425417+08:00] [TCP] 127.0.0.1:62478 --> apptrailers.itunes.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:27:46 INFO - [clash]: [36mINFO[0m[2025-01-09T17:27:46.522041+08:00] [TCP] 127.0.0.1:62479 --> apptrailers.itunes.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:27:47 INFO - [clash]: [36mINFO[0m[2025-01-09T17:27:47.799216+08:00] [TCP] 127.0.0.1:62480 --> apptrailers.itunes.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:27:47 INFO - [clash]: [36mINFO[0m[2025-01-09T17:27:47.883562+08:00] [TCP] 127.0.0.1:62481 --> apptrailers.itunes.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:27:49 INFO - [clash]: [36mINFO[0m[2025-01-09T17:27:49.137219+08:00] [TCP] 127.0.0.1:62492 --> apptrailers.itunes.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:27:51 INFO - [clash]: [36mINFO[0m[2025-01-09T17:27:51.083003+08:00] [TCP] 127.0.0.1:62500(Cursor Helper) --> api2.cursor.sh:443 match Match using 🐟 漏网之鱼[[Hy2]香港01] 
+
+2025-01-09 17:27:53 INFO - [clash]: [36mINFO[0m[2025-01-09T17:27:53.361081+08:00] [TCP] 127.0.0.1:62513 --> p213-fmfmobile.icloud.com.cn:443 match DomainSuffix(icloud.com.cn) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:28:04 INFO - [clash]: [36mINFO[0m[2025-01-09T17:28:04.425805+08:00] [TCP] 127.0.0.1:62521 --> vscode-sync.trafficmanager.net:443 match DomainSuffix(trafficmanager.net) using Ⓜ️ 微软服务[DIRECT] 
+
+2025-01-09 17:28:06 INFO - [clash]: [36mINFO[0m[2025-01-09T17:28:06.32114+08:00] [TCP] 127.0.0.1:62534 --> mobile.events.data.microsoft.com:443 match DomainKeyword(microsoft) using Ⓜ️ 微软服务[DIRECT] 
+
+2025-01-09 17:28:14 INFO - [clash]: [36mINFO[0m[2025-01-09T17:28:14.153101+08:00] [TCP] 127.0.0.1:62560 --> apptrailers.itunes.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:28:14 INFO - [clash]: [36mINFO[0m[2025-01-09T17:28:14.576143+08:00] [TCP] 127.0.0.1:62571 --> apptrailers.itunes.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:28:16 INFO - [clash]: [36mINFO[0m[2025-01-09T17:28:16.136843+08:00] [TCP] 127.0.0.1:62573(Google Chrome Helper) --> b1.nel.goog:443 match GeoIP(CN) using 🎯 全球直连[DIRECT] 
+
+2025-01-09 17:28:16 INFO - [clash]: [36mINFO[0m[2025-01-09T17:28:16.257638+08:00] [TCP] 127.0.0.1:62587 --> apptrailers.itunes.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:28:16 INFO - [clash]: [36mINFO[0m[2025-01-09T17:28:16.483003+08:00] [TCP] 127.0.0.1:62588(Google Chrome Helper) --> beacons.gcp.gvt2.com:443 match GeoIP(CN) using 🎯 全球直连[DIRECT] 
+
+2025-01-09 17:28:17 INFO - [clash]: [36mINFO[0m[2025-01-09T17:28:17.006372+08:00] [TCP] 127.0.0.1:62591 --> xp.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:28:17 INFO - [clash]: [36mINFO[0m[2025-01-09T17:28:17.529638+08:00] [TCP] 127.0.0.1:62592 --> apptrailers.itunes.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:28:17 INFO - [clash]: [36mINFO[0m[2025-01-09T17:28:17.756763+08:00] [TCP] 127.0.0.1:62594 --> stocks-analytics-events.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:28:17 INFO - [clash]: [36mINFO[0m[2025-01-09T17:28:17.757077+08:00] [TCP] 127.0.0.1:62593 --> stocks-analytics-events.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:28:25 INFO - [clash]: [36mINFO[0m[2025-01-09T17:28:25.139163+08:00] [TCP] 127.0.0.1:62606 --> play.itunes.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:28:26 INFO - [clash]: [36mINFO[0m[2025-01-09T17:28:26.386338+08:00] [TCP] 127.0.0.1:62609 --> xp.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:28:26 INFO - [clash]: [36mINFO[0m[2025-01-09T17:28:26.922945+08:00] [TCP] 127.0.0.1:62611(Thunder) --> analysis-acc-ssl.xunlei.com:443 match Process(Thunder) using 🎯 全球直连[DIRECT] 
+
+2025-01-09 17:28:41 INFO - [clash]: [36mINFO[0m[2025-01-09T17:28:41.566809+08:00] [TCP] 127.0.0.1:62626 --> p213-fmfmobile.icloud.com.cn:443 match DomainSuffix(icloud.com.cn) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:28:44 INFO - [clash]: [36mINFO[0m[2025-01-09T17:28:44.550467+08:00] [TCP] 127.0.0.1:62629 --> xp.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:28:50 INFO - [clash]: [36mINFO[0m[2025-01-09T17:28:50.518332+08:00] [TCP] 127.0.0.1:62647 --> is1-ssl.mzstatic.com:443 match DomainSuffix(mzstatic.com) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:28:50 INFO - [clash]: [36mINFO[0m[2025-01-09T17:28:50.651832+08:00] [TCP] 127.0.0.1:62660 --> gateway.icloud.com.cn:443 match DomainSuffix(icloud.com.cn) using 🍎 苹果服务[[Hy2]香港01] 
+
+2025-01-09 17:28:50 INFO - [clash]: [36mINFO[0m[2025-01-09T17:28:50.705118+08:00] [TCP] 127.0.0.1:62649 --> gsp64-ssl.ls.apple.com:443 match DomainSuffix(apple.com) using 🍎 苹果服务[[Hy2]香港01] 
+

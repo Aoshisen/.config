@@ -1,4 +1,4 @@
--- @see https://github.com/NvChad/NvChad/blob/v2.5/lua/nvchad/mappings.lua
+--https://github.com/NvChad/NvChad/blob/v2.5/lua/nvchad/mappings.lua
 -- 导入nvchad 默认的mapping 配置
 require "nvchad.mappings"
 
@@ -24,7 +24,7 @@ map("n", "H", "^", { desc = "custom H to jump to first word" })
 map("n", "L", "$", { desc = "custom L to jump to last word" })
 
 -- 设置快速跳转buffer
-for i = 1, 9, 1 d
+for i = 1, 9, 1 do
   map("n", string.format("<C-%s>", i), function()
     vim.api.nvim_set_current_buf(vim.t.bufs[i])
   end, { desc = string.format("custom buffer <C-%s> to jump to buffer %s", i, i) })

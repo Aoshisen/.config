@@ -3,6 +3,10 @@ on   = "l"
 run  = "plugin smart-enter"
 desc = "Enter the child directory, or open the file"
 [[manager.prepend_keymap]]
+on   = "<Enter>"
+run  = "plugin smart-enter"
+desc = "Enter the child directory, or open the file"
+[[manager.prepend_keymap]]
 on   = "S"
 run  = 'shell "$SHELL" --block'
 desc = "按下 ! 在当前浏览的位置打开终端"

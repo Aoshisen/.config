@@ -1,9 +1,8 @@
 {
 	"editor.acceptSuggestionOnCommitCharacter": false,
 	"editor.fontLigatures": true,
-	"editor.lineHeight": 24,
 	"editor.lineNumbers": "on",
-	"editor.fontFamily": "Fira Code ,Hack Nerd Font",
+	"editor.lineHeight": 1.4,
 	"editor.quickSuggestions": {
 		"other": true,
 		"comments": true,
@@ -19,16 +18,6 @@
 	"[javascript]": {
 		"editor.defaultFormatter": "vscode.typescript-language-features"
 	},
-	"cSpell.userWords": [
-		"Codegen",
-		"composables",
-		"mockjs",
-		"Pinia",
-		"Sider",
-		"tauri",
-		"vitest",
-		"vuex"
-	],
 	"[vue]": {
 		"editor.defaultFormatter": "Vue.volar"
 	},
@@ -38,12 +27,9 @@
 	"[jsonc]": {
 		"editor.defaultFormatter": "vscode.json-language-features"
 	},
-	"liveServer.settings.donotShowInfoMsg": true,
-	"editor.renderWhitespace": "none",
 	"[typescriptreact]": {
 		"editor.defaultFormatter": "vscode.typescript-language-features"
 	},
-	"editor.cursorStyle": "line",
 	"editor.insertSpaces": false,
 	"editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
 	"editor.wordWrap": "off",
@@ -408,7 +394,6 @@
 		"FIG_NEW_SESSION": "1"
 	},
 	"editor.accessibilitySupport": "off",
-	"editor.smoothScrolling": true,
 	"[css]": {
 		"editor.defaultFormatter": "vscode.css-language-features"
 	},
@@ -435,21 +420,9 @@
 	"editor.suggest.snippetsPreventQuickSuggestions": false,
 	"editor.inlineSuggest.showToolbar": "always",
 	"editor.inlineSuggest.enabled": true,
-	"editor.snippetSuggestions": "top",
-	"workbench.tree.indent": 15,
-	"workbench.colorCustomizations": {
-		"tree.indentGuidesStroke": "#9a86fd",
-		"statusBar.background": "#005f5f",
-		"statusBar.noFolderBackground": "#005f5f",
-		"statusBar.debuggingBackground": "#005f5f",
-		"statusBar.foreground": "#ffffff",
-		"statusBar.debuggingForeground": "#ffffff"
-	},
 	"vim.showMarksInGutter": true,
 	"vim.handleKeys": {},
-	"cSpell.languageSettings": [
-	
-	],
+	"cSpell.languageSettings": [],
 	"svelte.enable-ts-plugin": true,
 	"workbench.tree.renderIndentGuides": "none",
 	"workbench.editor.highlightModifiedTabs": true,
@@ -459,7 +432,6 @@
 		"a11y-click-events-have-key-events": "ignore",
 		"invalid-slotted-content": "ignore"
 	},
-	"terminal.integrated.fontFamily": "Hack Nerd Font",
 	"explorer.confirmDelete": false,
 	"git.confirmSync": false,
 	"git.autofetch": true,
@@ -474,7 +446,6 @@
 	},
 	"typescript.updateImportsOnFileMove.enabled": "always",
 	"update.mode": "manual",
-	"editor.cursorSmoothCaretAnimation": "on",
 	"extensions.experimental.affinity": {
 		"vscodevim.vim": 1
 	},
@@ -482,7 +453,6 @@
 	"workbench.startupEditor": "none",
 	"workbench.colorTheme": "Default High Contrast",
 	"winopacity.opacity": 230,
-	"editor.fontVariations": false,
 	"multiCommand.commands": [
 		{
 			"command": "multiCommand.focusDownFiveTimes",
@@ -505,11 +475,17 @@
 			]
 		}
 	],
-	"workbench.activityBar.location": "top",
-	"window.newWindowProfile": "默认",
-	"settingsSync.ignoredSettings": [],
 	"[rust]": {
 		"editor.defaultFormatter": "rust-lang.rust-analyzer"
 	},
-	"chat.commandCenter.enabled": false
+	"editor.cursorBlinking": "expand",
+	"workbench.activityBar.location": "top",
+	"editor.fontFamily": "'Fira Code','Hack Nerd Font'",
+	"chat.commandCenter.enabled": false,
+	"workbench.navigationControl.enabled": false,
+	"workbench.layoutControl.enabled": false,
+	"window.commandCenter": false,
+	"workbench.productIconTheme": "macos-modern",
+	"workbench.editor.enablePreview": false,
+	"editor.minimap.enabled": false,
 }
