@@ -36,7 +36,7 @@
 	"security.workspace.trust.untrustedFiles": "newWindow",
 	"diffEditor.ignoreTrimWhitespace": false,
 	"files.associations": {
-		"*.json": "jsonc"
+		"*.json": "jsonc",
 	},
 	"editor.guides.indentation": false,
 	"vim.argumentObjectOpeningDelimiters": [
@@ -423,15 +423,10 @@
 	"vim.showMarksInGutter": true,
 	"vim.handleKeys": {},
 	"cSpell.languageSettings": [],
-	"svelte.enable-ts-plugin": true,
 	"workbench.tree.renderIndentGuides": "none",
 	"workbench.editor.highlightModifiedTabs": true,
 	"workbench.editor.pinnedTabSizing": "compact",
 	"liveServer.settings.AdvanceCustomBrowserCmdLine": "",
-	"svelte.plugin.svelte.compilerWarnings": {
-		"a11y-click-events-have-key-events": "ignore",
-		"invalid-slotted-content": "ignore"
-	},
 	"explorer.confirmDelete": false,
 	"git.confirmSync": false,
 	"git.autofetch": true,
@@ -451,7 +446,7 @@
 	},
 	"git.openRepositoryInParentFolders": "never",
 	"workbench.startupEditor": "none",
-	"workbench.colorTheme": "Default High Contrast",
+	"workbench.colorTheme": "Monokai Dimmed",
 	"winopacity.opacity": 230,
 	"multiCommand.commands": [
 		{
@@ -480,12 +475,21 @@
 	},
 	"editor.cursorBlinking": "expand",
 	"workbench.activityBar.location": "top",
-	"editor.fontFamily": "'Fira Code','Hack Nerd Font'",
+	"editor.fontFamily": "'0xProto','Hack Nerd Font'",
 	"chat.commandCenter.enabled": false,
 	"workbench.navigationControl.enabled": false,
 	"workbench.layoutControl.enabled": false,
+	"terminal.external.osxExec": "Iterm2.app",
+	"svelte.enable-ts-plugin": true,
+	"svelte.plugin.svelte.compilerWarnings": {
+		"a11y-click-events-have-key-events": "ignore"
+	},
+	"editor.defaultFormatter": "svelte.svelte-vscode",
 	"window.commandCenter": false,
-	"workbench.productIconTheme": "macos-modern",
-	"workbench.editor.enablePreview": false,
-	"editor.minimap.enabled": false,
+	"[snippets]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"[svelte]": {
+		"editor.defaultFormatter": "svelte.svelte-vscode"
+	},
 }

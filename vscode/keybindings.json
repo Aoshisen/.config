@@ -85,6 +85,14 @@
 		"command": "multiCommand.focusUpFiveTimes",
 		"when": "listFocus && !inputFocus"
 	},
+	{
+		"key": "ctrl+l",
+		"command": "workbench.action.focusRightGroup"
+	},
+	{
+		"key": "ctrl+h",
+		"command": "workbench.action.focusLeftGroup"
+	},
 	// 聚焦下一个打开的终端
 	{
 		"key": "ctrl+cmd+l",
@@ -97,12 +105,4 @@
 		"command": "workbench.action.terminal.focusPreviousPane",
 		"when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
 	},
-	{
-		"key": "ctrl+l",
-		"command": "workbench.action.focusRightGroup"
-	},
-	{
-		"key": "ctrl+h",
-		"command": "workbench.action.focusLeftGroup"
-	}
 ]
