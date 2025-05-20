@@ -63,7 +63,7 @@
 			"after": [
 				"<esc>"
 			]
-		},
+		}
 	],
 	"vim.visualModeKeyBindingsNonRecursive": [
 		// 在可视化模式下 y 之后光标停到当前的位置 y->ygv<esc>
@@ -247,7 +247,6 @@
 		{
 			"before": [
 				"<Leader>",
-				"b",
 				"m"
 			],
 			"commands": [
@@ -292,26 +291,6 @@
 			],
 			"commands": [
 				"bookmarks.clearFromAllFiles"
-			]
-		},
-		{
-			"before": [
-				"<Leader>",
-				"c",
-				"f"
-			],
-			"commands": [
-				"hocusPocus.createFunction"
-			]
-		},
-		{
-			"before": [
-				"<Leader>",
-				"c",
-				"v"
-			],
-			"commands": [
-				"hocusPocus.createVariable"
 			]
 		},
 		{
@@ -388,6 +367,17 @@
 				"workbench.action.closeActiveEditor"
 			]
 		},
+		{
+			"before": [
+				"<leader>",
+				"d",
+				"m"
+			],
+			"after": [
+				":delmarks!",
+				"<Enter>"
+			]
+		}
 	],
 	"debug.disassemblyView.showSourceCode": false,
 	"terminal.integrated.env.osx": {
@@ -447,7 +437,6 @@
 	"git.openRepositoryInParentFolders": "never",
 	"workbench.startupEditor": "none",
 	"workbench.colorTheme": "Monokai Dimmed",
-	"winopacity.opacity": 230,
 	"multiCommand.commands": [
 		{
 			"command": "multiCommand.focusDownFiveTimes",
@@ -466,7 +455,7 @@
 				"list.focusUp",
 				"list.focusUp",
 				"list.focusUp",
-				"list.focusUp",
+				"list.focusUp"
 			]
 		}
 	],
@@ -478,18 +467,18 @@
 	"editor.fontFamily": "'0xProto','Hack Nerd Font'",
 	"chat.commandCenter.enabled": false,
 	"workbench.navigationControl.enabled": false,
-	"workbench.layoutControl.enabled": false,
 	"terminal.external.osxExec": "Iterm2.app",
 	"svelte.enable-ts-plugin": true,
-	"svelte.plugin.svelte.compilerWarnings": {
-		"a11y-click-events-have-key-events": "ignore"
-	},
-	"editor.defaultFormatter": "svelte.svelte-vscode",
 	"window.commandCenter": false,
 	"[snippets]": {
 		"editor.defaultFormatter": "vscode.json-language-features"
 	},
 	"[svelte]": {
 		"editor.defaultFormatter": "svelte.svelte-vscode"
+	},
+	"editor.defaultFormatter": "svelte.svelte-vscode",
+	"svelte.plugin.svelte.compilerWarnings": {
+		"a11y_click_events_have_key_events": "ignore",
+		"a11y_no_static_element_interactions": "ignore"
 	},
 }

@@ -105,4 +105,13 @@
 		"command": "workbench.action.terminal.focusPreviousPane",
 		"when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
 	},
+	{
+		"key": "shift+cmd+b",
+		"command": "-workbench.action.tasks.build",
+		"when": "taskCommandsRegistered"
+	},
+	{
+		"key": "shift+cmd+b",
+		"command": "workbench.action.toggleAuxiliaryBar"
+	}
 ]

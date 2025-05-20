@@ -7,3 +7,12 @@ fi
 
 # To customize prompt, run `p10k configure` or edit ~/.config/zsh/.p10k.zsh.
 [[ ! -f ~/.config/zsh/.p10k.zsh ]] || source ~/.config/zsh/.p10k.zsh
+
+
+source ~/.config/zsh/env.zsh
+source ~/.config/zsh/aliases.zsh
+source ~/.config/zsh/nvm.zsh
+source ~/.config/zsh/plugins.zsh
+source ~/.config/zsh/theme.zsh
+source ~/.config/zsh/vi.zsh
+source $ZSH/oh-my-zsh.sh
