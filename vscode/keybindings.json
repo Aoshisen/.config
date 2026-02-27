@@ -111,7 +111,15 @@
 		"when": "taskCommandsRegistered"
 	},
 	{
-		"key": "shift+cmd+b",
+		"key": "ctrl+cmd+b",
 		"command": "workbench.action.toggleAuxiliaryBar"
-	}
+    },
+    {
+        "key": "shift+enter",
+        "command": "workbench.action.terminal.sendSequence",
+        "args": {
+            "text": "\u001b\r"
+        },
+        "when": "terminalFocus"
+    }
 ]
