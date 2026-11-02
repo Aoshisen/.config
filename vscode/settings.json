@@ -1,0 +1,520 @@
+{
+	"editor.acceptSuggestionOnCommitCharacter": false,
+	"editor.fontLigatures": true,
+	"editor.lineNumbers": "relative",
+	"editor.lineHeight": 1.4,
+	"editor.quickSuggestions": {
+		"other": true,
+		"comments": true,
+		"strings": true
+	},
+	"editor.formatOnSaveMode": "file",
+	"[vue]": {
+		"editor.defaultFormatter": "Vue.volar"
+	},
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"editor.insertSpaces": false,
+	"editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+	"editor.wordWrap": "off",
+	"security.workspace.trust.untrustedFiles": "newWindow",
+	"diffEditor.ignoreTrimWhitespace": false,
+	"files.associations": {
+		"*.json": "jsonc",
+		"*.ts": "typescript"
+	},
+	"editor.guides.indentation": false,
+	"vim.argumentObjectOpeningDelimiters": [
+		"(",
+		"[",
+		"{"
+	],
+	"vim.argumentObjectClosingDelimiters": [
+		")",
+		"]",
+		"}"
+	],
+	"vim.easymotion": true,
+	"vim.leader": "<Space>",
+	"vim.foldfix": true,
+	"vim.useSystemClipboard": true,
+	"vim.easymotionJumpToAnywhereRegex": "\\b[A-Za-z0-9]|[A-Za-z0-9]\\b|_.|#.|=.|[a-z][A-Z]|{|\\(|\\[",
+	"vim.insertModeKeyBindingsNonRecursive": [
+		{
+			"before": [
+				"j",
+				"j"
+			],
+			"after": [
+				"<esc>"
+			]
+		}
+	],
+	"vim.visualModeKeyBindingsNonRecursive": [
+		// 在可视化模式下 y 之后光标停到当前的位置 y->ygv<esc>
+		{
+			"before": [
+				"y"
+			],
+			"after": [
+				"y",
+				"g",
+				"v",
+				"<esc>"
+			]
+		},
+		//快速移动到行首第一个非空字符
+		{
+			"before": [
+				"H"
+			],
+			"after": [
+				"^"
+			]
+		},
+		//快速移动到行尾 L-> g_
+		{
+			"before": [
+				"L"
+			],
+			"after": [
+				"g",
+				"_"
+			]
+		},
+		// 向下快速移动5行 J -> 5j
+		{
+			"before": [
+				"J"
+			],
+			"after": [
+				"5",
+				"j"
+			]
+		},
+		//向上快速移动5行 K -> 5k
+		{
+			"before": [
+				"K"
+			],
+			"after": [
+				"5",
+				"k"
+			]
+		},
+		// 重构手法： 提取函数 <leader>rf -> editor.action.refactor kind refactor.extract.function
+		{
+			"before": [
+				"<Leader>",
+				"r",
+				"f"
+			],
+			"commands": [
+				{
+					"command": "editor.action.refactor",
+					"args": {
+						"kind": "refactor.extract.function"
+					}
+				}
+			]
+		},
+		// 重构手法： 提取变量 <leader>rv -> abracadabra.extract (基于abracadabra插件)
+		{
+			"before": [
+				"<Leader>",
+				"r",
+				"v"
+			],
+			"commands": [
+				"abracadabra.extract"
+			]
+		}
+	],
+	"vim.normalModeKeyBindingsNonRecursive": [
+		{
+			"before": [
+				";"
+			],
+			"after": [
+				":"
+			]
+		},
+		{
+			"before": [
+				"J"
+			],
+			"after": [
+				"5",
+				"j"
+			]
+		},
+		{
+			"before": [
+				"K"
+			],
+			"after": [
+				"5",
+				"k"
+			]
+		},
+		{
+			"before": [
+				"H"
+			],
+			"after": [
+				"^"
+			]
+		},
+		{
+			"before": [
+				"L"
+			],
+			"after": [
+				"g",
+				"_"
+			]
+		},
+		{
+			"before": [
+				"<Leader>",
+				"l"
+			],
+			"after": [
+				"<leader>",
+				"<leader>",
+				"l"
+			]
+		},
+		{
+			"before": [
+				"<Leader>",
+				"h"
+			],
+			"after": [
+				"<leader>",
+				"<leader>",
+				"h"
+			]
+		},
+		{
+			"before": [
+				"<Leader>",
+				"k"
+			],
+			"after": [
+				"<leader>",
+				"<leader>",
+				"k"
+			]
+		},
+		{
+			"before": [
+				"<Leader>",
+				"j"
+			],
+			"after": [
+				"<leader>",
+				"<leader>",
+				"j"
+			]
+		},
+		{
+			"before": [
+				"<leader>",
+				"s"
+			],
+			"after": [
+				"V",
+				"$",
+				"%"
+			]
+		},
+		{
+			"before": [
+				"<Leader>",
+				"m"
+			],
+			"commands": [
+				"bookmarks.toggle"
+			]
+		},
+		{
+			"before": [
+				"<Leader>",
+				"b",
+				"l"
+			],
+			"commands": [
+				"bookmarks.list"
+			]
+		},
+		{
+			"before": [
+				"<Leader>",
+				"b",
+				"L"
+			],
+			"commands": [
+				"bookmarks.listFromAllFiles"
+			]
+		},
+		{
+			"before": [
+				"<Leader>",
+				"b",
+				"c"
+			],
+			"commands": [
+				"bookmarks.clear"
+			]
+		},
+		{
+			"before": [
+				"<Leader>",
+				"b",
+				"C"
+			],
+			"commands": [
+				"bookmarks.clearFromAllFiles"
+			]
+		},
+		{
+			"before": [
+				"<Leader>",
+				"r",
+				"v"
+			],
+			"commands": [
+				"abracadabra.extract"
+			]
+		},
+		{
+			"before": [
+				"<Leader>",
+				"r",
+				"n"
+			],
+			"commands": [
+				"abracadabra.renameSymbol"
+			]
+		},
+		{
+			"before": [
+				"<Leader>",
+				"f"
+			],
+			"commands": [
+				"editor.action.formatDocument"
+			]
+		},
+		{
+			"before": [
+				"<C-w>",
+				"l"
+			],
+			"commands": [
+				"workbench.action.splitEditorRight"
+			]
+		},
+		{
+			"before": [
+				"<C-w>",
+				"h"
+			],
+			"commands": [
+				"workbench.action.splitEditorLeft"
+			]
+		},
+		{
+			"before": [
+				"<C-w>",
+				"x"
+			],
+			"commands": [
+				"workbench.action.closeEditorsInGroup"
+			]
+		},
+		{
+			"before": [
+				";",
+				"w"
+			],
+			"commands": [
+				"workbench.action.files.save"
+			]
+		},
+		{
+			"before": [
+				";",
+				"q"
+			],
+			"commands": [
+				"workbench.action.closeActiveEditor"
+			]
+		},
+		{
+			"before": [
+				"<leader>",
+				"d",
+				"m"
+			],
+			"after": [
+				":delmarks!",
+				"<Enter>"
+			]
+		}
+	],
+	"multiCommand.commands": [
+		{
+			"command": "multiCommand.focusDownFiveTimes",
+			"sequence": [
+				"list.focusDown",
+				"list.focusDown",
+				"list.focusDown",
+				"list.focusDown",
+				"list.focusDown"
+			]
+		},
+		{
+			"command": "multiCommand.focusUpFiveTimes",
+			"sequence": [
+				"list.focusUp",
+				"list.focusUp",
+				"list.focusUp",
+				"list.focusUp",
+				"list.focusUp"
+			]
+		}
+	],
+	"debug.disassemblyView.showSourceCode": false,
+	"terminal.integrated.env.osx": {
+		"FIG_NEW_SESSION": "1"
+	},
+	"editor.accessibilitySupport": "off",
+	"[css]": {
+		"editor.defaultFormatter": "vscode.css-language-features"
+	},
+	"editor.stickyScroll.enabled": true,
+	"debug.onTaskErrors": "debugAnyway",
+	"files.exclude": {
+		"**/.git": true,
+		"**/.svn": true,
+		"**/.hg": true,
+		"**/CVS": true,
+		"**/.DS_Store": true,
+		"**/tmp": true,
+		"**/node_modules": false,
+		"**/bower_components": true,
+	},
+	"files.watcherExclude": {
+		"**/.git/objects/**": true,
+		"**/.git/subtree-cache/**": true,
+		"**/node_modules/**": true,
+		"**/tmp/**": true,
+		"**/bower_components/**": true,
+	},
+	"editor.guides.bracketPairs": "active",
+	"editor.suggest.snippetsPreventQuickSuggestions": false,
+	"editor.inlineSuggest.showToolbar": "always",
+	"editor.inlineSuggest.enabled": true,
+	"vim.showMarksInGutter": true,
+	"vim.handleKeys": {},
+	"cSpell.languageSettings": [],
+	"explorer.confirmDelete": false,
+	"git.confirmSync": false,
+	"git.autofetch": true,
+	"accessibility.signals.lineHasWarning": {
+		"sound": "auto"
+	},
+	"[scss]": {
+		"editor.defaultFormatter": "michelemelluso.code-beautifier"
+	},
+	"[less]": {
+		"editor.defaultFormatter": "michelemelluso.code-beautifier"
+	},
+	"js/ts.updateImportsOnFileMove.enabled": "always",
+	"update.mode": "manual",
+	"extensions.experimental.affinity": {
+		"vscodevim.vim": 1,
+		"asvetliakov.vscode-neovim": 1
+	},
+	"git.openRepositoryInParentFolders": "never",
+	"workbench.startupEditor": "none",
+	"workbench.colorTheme": "GitHub Dark Colorblind (Beta)",
+	"[rust]": {
+		"editor.defaultFormatter": "jinxdash.prettier-rust"
+	},
+	"editor.cursorBlinking": "expand",
+	"editor.fontFamily": "'0xProto','Hack Nerd Font'",
+	"terminal.external.osxExec": "Iterm2.app",
+	"svelte.enable-ts-plugin": true,
+	"[snippets]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"[svelte]": {
+		"editor.defaultFormatter": "svelte.svelte-vscode"
+	},
+	"svelte.plugin.svelte.compilerWarnings": {
+		"a11y_click_events_have_key_events": "ignore",
+		"a11y_no_static_element_interactions": "ignore"
+	},
+	"diffEditor.hideUnchangedRegions.enabled": true,
+	"claudeCode.disableLoginPrompt": true,
+	"claudeCode.preferredLocation": "panel",
+	"chat.disableAIFeatures": true,
+	"workbench.activityBar.location": "top",
+	"workbench.browser.showInTitleBar": false,
+	"workbench.navigationControl.enabled": false,
+	"window.commandCenter": false,
+	"workbench.layoutControl.enabled": false,
+	"editor.minimap.renderCharacters": false,
+	"workbench.browser.openLocalhostLinks": false,
+	"continue.enableTabAutocomplete": true,
+	"workbench.tips.enabled": false,
+	"workbench.tree.renderIndentGuides": "none",
+	"workbench.view.showQuietly": {
+		"workbench.panel.output": false
+	},
+	"workbench.editor.enablePreview": false,
+	"chat.agent.enabled": false,
+	"claudeCode.hideOnboarding": true,
+	// 将路径替换为你刚才用 which 或 Get-Command 查出来的真实绝对路径
+	"oxc.path.oxfmt": "/Users/aoshisen/.yarn/bin/oxfmt",
+	"oxc.path.oxlint": "/Users/aoshisen/.yarn/bin/oxlint",
+	"editor.defaultFormatter": "oxc.oxc-vscode",
+	"editor.formatOnSave": true,
+	"[javascript]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"[javascriptreact]": {
+		"editor.defaultFormatter": "oxc.oxc-vscode"
+	},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	// 避免全局保存冲突
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": "explicit"
+	},
+	"continue.disableQuickFix": true,
+	"gitlens.views.scm.grouped.views": {
+		"commits": true,
+		"branches": true,
+		"remotes": true,
+		"stashes": true,
+		"tags": true,
+		"worktrees": true,
+		"contributors": true,
+		"fileHistory": false,
+		"repositories": true,
+		"searchAndCompare": true,
+		"launchpad": false
+	},
+}
