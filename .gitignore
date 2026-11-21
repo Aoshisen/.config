@@ -1,0 +1,14 @@
+# ===== 隐私 / 本机专属环境变量 =====
+zsh/env.local.zsh
+env.local.zsh
+
+# ===== zsh 运行时生成的文件 =====
+*.zcompdump
+*.zcompdump-*
+*.zwc
+zsh/.zsh_history
+zsh/.zsh_sessions/
+zsh/.p10k-instant-prompt-*.zsh
+
+# ===== macOS =====
+.DS_Store
